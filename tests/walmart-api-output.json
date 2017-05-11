@@ -1,0 +1,514 @@
+{
+    "query": "jeans",
+    "sort": "relevance",
+    "responseGroup": "base",
+    "totalResults": 26653,
+    "start": 1,
+    "numItems": 10,
+    "items": [{
+            "itemId": 11037730,
+            "parentItemId": 11037730,
+            "name": "Faded Glory - Men's Original Fit Jeans",
+            "salePrice": 9.96,
+            "upc": "754819087638",
+            "categoryPath": "Clothing/Men/Men's Bottoms/Men's Jeans",
+            "shortDescription": "Update your wardrobe with style and comfort when you wear Faded Glory Men's Jeans. These are stylish pants made from cotton fabric. They ensure complete comfort. They feature five pockets to provide enough room to hold all your essentials. These original fit jeans have belt loops. They are durable. They have a single-button closure with zipper fly for comfort and easy on and off. These are the cotton jeans men love to wear for casual nights out with the guys. They are easy to clean and are also available in men's big sizes. Wear them around the house when you are just lounging and watching television or reading a book. Alternately, you can head out with friends to a sporting event or the golf course for a relaxing afternoon.",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Faded Glory Men's Original Fit Jeans&lt;/b&gt;:&lt;ul&gt;&lt;li&gt;100% cotton&lt;/li&gt;&lt;li&gt;5-pocket styling&lt;/li&gt;&lt;li&gt;Belt loops&lt;/li&gt;&lt;li&gt;1-button with zipper fly&lt;/li&gt;&lt;li&gt;Original fit jeans&lt;/li&gt;&lt;li&gt;Machine wash cold&lt;/li&gt;&lt;li&gt;Available sizes: 30&quot; x 30&quot;, 30&quot; x 32&quot;, 32&quot; x 30&quot;, 32&quot; x 32&quot;, 32&quot; x 34&quot;, 33&quot; x 30&quot; and 33&quot; x 32&quot;&lt;/li&gt;&lt;li&gt;Men's cotton jeans are available in a DKTINT, LTTINT and medium wash color&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/95d49141-c621-49dd-8c99-18759a965a15_1.c764c9376b3f31d110a5db2e1e6bec22.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/95d49141-c621-49dd-8c99-18759a965a15_1.c764c9376b3f31d110a5db2e1e6bec22.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/95d49141-c621-49dd-8c99-18759a965a15_1.c764c9376b3f31d110a5db2e1e6bec22.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FFaded-Glory-Men-s-Original-Fit-Jeans%252F11037730%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "315FG",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FFaded-Glory-Men-s-Original-Fit-Jeans%2F11037730%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.405",
+            "numReviews": 375,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_4.gif",
+            "categoryNode": "5438_133197_1228780",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D11037730%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D11037730%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/95d49141-c621-49dd-8c99-18759a965a15_1.c764c9376b3f31d110a5db2e1e6bec22.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/95d49141-c621-49dd-8c99-18759a965a15_1.c764c9376b3f31d110a5db2e1e6bec22.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/95d49141-c621-49dd-8c99-18759a965a15_1.c764c9376b3f31d110a5db2e1e6bec22.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/e19fca8b-8842-4f26-a611-2c50a55854ed_1.f6f1daa6f80d43c5026b5ef557567279.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/e19fca8b-8842-4f26-a611-2c50a55854ed_1.f6f1daa6f80d43c5026b5ef557567279.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/e19fca8b-8842-4f26-a611-2c50a55854ed_1.f6f1daa6f80d43c5026b5ef557567279.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 16518821,
+            "parentItemId": 16518821,
+            "name": "Signature by Levi Strauss & Co. Men's Regular Fit Jeans",
+            "msrp": 19.92,
+            "salePrice": 17.67,
+            "upc": "039307711494",
+            "categoryPath": "Clothing/Men/Men's Bottoms/Men's Jeans",
+            "shortDescription": "&lt;p&gt;Brought you by an iconic American brand, all men look simply fantastic in Levis. These Signature by Levi Strauss &amp; Co. Men's Regular Jeans offer a classic, slightly relaxed fit through the seat and thigh, and a straight fit from knee to ankle. Think streamlined, but not too tight, perfect for a wide range of style preferences. Pair these Signature jeans with a plain white t-shirt for a relaxed weekend running errands or watching football, or dress them up with a nice sweater or blazer for a night on the town or Casual Friday at work. These regular jeans offer dependable, all-day comfort and are available in two different washes: Dark Stonewash, which is a lighter, classic true blue; and Rinse, a dark and stylish pair that is versatile and slightly more dressed-up. However you choose to wear these Signature by Levi Strauss &amp; Co. Men's Regular Jeans, rest assured that you're going to look and feel your best.&lt;/p&gt;",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Signature by Levi Strauss &amp; Co. Men's Relaxed Fit Jeans:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;A Levi Strauss Signature garment&lt;/li&gt;&lt;li&gt;Men's jeans&lt;/li&gt;&lt;li&gt;Five-pocket styling&lt;/li&gt;&lt;li&gt;Roomy coin pocket&lt;/li&gt;&lt;li&gt;Vintage wash with tint&lt;/li&gt;&lt;li&gt;Straight fit sits just below waist with room through hips and thighs&lt;/li&gt;&lt;li&gt;Men's straight leg jeans&lt;/li&gt;&lt;li&gt;Single-button closure with YKK-zipper fly&lt;/li&gt;&lt;li&gt;18-1/2&quot; leg opening&lt;/li&gt;&lt;li&gt;Color: Geary&lt;/li&gt;&lt;li&gt;Fabric: cotton&lt;/li&gt;&lt;li&gt;Care: machine wash cold; tumble dry hot&lt;/li&gt;&lt;li&gt;Also available in most Wal-Mart stores&lt;/li&gt;&lt;li&gt;Sizes: 30&quot;x30&quot;, 30&quot;x32&quot;, 32&quot;x30&quot;, 32&quot;x32&quot;, 32&quot;x34&quot;, 33&quot;x30&quot;, 33&quot;x32&quot;, 33&quot;x34&quot;, 34&quot;x29&quot;, 34&quot;x30&quot;, 34&quot;x32&quot;, 34&quot;x34&quot;, 36&quot;x29&quot;, 36&quot;x30&quot;, 36&quot;x32&quot;, 36&quot;x34&quot;, 38&quot;x29&quot;, 38&quot;x30&quot;, 38x32&quot;, 38&quot;x34&quot;, 40&quot;x30&quot;, 40&quot;x32&quot;, 42&quot;x30&quot;, 42&quot;x32&quot;&lt;/li&gt;&lt;li&gt;Colors of straight leg jeans: Griffith, dark stonewash, light indigo, medium indigo, rinse and sterling&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/de5e8911-7223-4424-8061-a95bf6f3e958_1.2dce4bb061f410e0ce0f93360e6993bc.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/de5e8911-7223-4424-8061-a95bf6f3e958_1.2dce4bb061f410e0ce0f93360e6993bc.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/de5e8911-7223-4424-8061-a95bf6f3e958_1.2dce4bb061f410e0ce0f93360e6993bc.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FSignature-by-Levi-Strauss-Co.-Men-s-Regular-Fit-Jeans%252F16518821%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "91400-0079",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FSignature-by-Levi-Strauss-Co.-Men-s-Regular-Fit-Jeans%2F16518821%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "categoryNode": "5438_133197_1228780",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D16518821%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D16518821%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/fce7952a-4087-4557-96c7-e8d4f9c71db2_1.bba1bd413511191cf3db0cab6592f8db.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/fce7952a-4087-4557-96c7-e8d4f9c71db2_1.bba1bd413511191cf3db0cab6592f8db.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/fce7952a-4087-4557-96c7-e8d4f9c71db2_1.bba1bd413511191cf3db0cab6592f8db.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/de5e8911-7223-4424-8061-a95bf6f3e958_1.2dce4bb061f410e0ce0f93360e6993bc.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/de5e8911-7223-4424-8061-a95bf6f3e958_1.2dce4bb061f410e0ce0f93360e6993bc.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/de5e8911-7223-4424-8061-a95bf6f3e958_1.2dce4bb061f410e0ce0f93360e6993bc.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 37611904,
+            "parentItemId": 37611904,
+            "name": "Wrangler Men's Regular Fit Jeans",
+            "salePrice": 16.77,
+            "upc": "760609415383",
+            "categoryPath": "Clothing/Men/Men's Bottoms/Men's Jeans",
+            "shortDescription": "These Wrangler Men's Regular Fit Jeans are great for every man&rsquo;s wardrobe. These jeans feature distressed wash and relaxed fit that put a nice spin on your classic pair of jeans. Pair these with a tee or button down top and boots.Also available in &lt;a href=&quot;http://www.walmart.com/ip/3395845&quot;&gt;&lt;b&gt;Men's Big&lt;/b&gt;&lt;/a&gt; sizes",
+            "longDescription": "&lt;p&gt;&lt;strong&gt;Wrangler Men's Regular Fit Jeans&lt;/strong&gt;:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;100% Cotton&lt;/li&gt;&lt;li&gt;Machine Wash Cold&lt;/li&gt;&lt;li&gt;Wrangler&lt;/li&gt;&lt;li&gt;Regular Fit Jeans&lt;/li&gt;&lt;li&gt;Zipper and Button Closure&lt;/li&gt;&lt;li&gt;2 Side Pockets&lt;/li&gt;&lt;li&gt;2 Back Pockets&lt;/li&gt;&lt;li&gt;1 Key Pocket&lt;/li&gt;&lt;li&gt;Belt Loops&lt;/li&gt;&lt;li&gt;Available in Assorted Colors&lt;/li&gt;&lt;li&gt;Also available in &lt;a href=&quot;https://www.walmart.com/ip/930424&quot;&gt;Big and Tall sizes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/d74d6429-3053-4fcc-ba56-192766294ce7_1.fc274c15d3feb629bd7e08dc102c09be.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/d74d6429-3053-4fcc-ba56-192766294ce7_1.fc274c15d3feb629bd7e08dc102c09be.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/d74d6429-3053-4fcc-ba56-192766294ce7_1.fc274c15d3feb629bd7e08dc102c09be.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FWrangler-Men-s-Regular-Fit-Jeans%252F37611904%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "0076060941538",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FWrangler-Men-s-Regular-Fit-Jeans%2F37611904%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.559",
+            "numReviews": 2286,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_6.gif",
+            "categoryNode": "5438_133197_1228780",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D37611904%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D37611904%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/d74d6429-3053-4fcc-ba56-192766294ce7_1.fc274c15d3feb629bd7e08dc102c09be.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/d74d6429-3053-4fcc-ba56-192766294ce7_1.fc274c15d3feb629bd7e08dc102c09be.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/d74d6429-3053-4fcc-ba56-192766294ce7_1.fc274c15d3feb629bd7e08dc102c09be.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/7f4bd0e5-ff4e-48a7-8130-c3406a20c468_1.5b4ab79003c4e262d927cc3c716a83af.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/7f4bd0e5-ff4e-48a7-8130-c3406a20c468_1.5b4ab79003c4e262d927cc3c716a83af.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/7f4bd0e5-ff4e-48a7-8130-c3406a20c468_1.5b4ab79003c4e262d927cc3c716a83af.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/d9232628-9fd5-4aab-9834-7a70f9f35dd9_1.367a750a91a1f09c7c51db53ed708170.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/d9232628-9fd5-4aab-9834-7a70f9f35dd9_1.367a750a91a1f09c7c51db53ed708170.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/d9232628-9fd5-4aab-9834-7a70f9f35dd9_1.367a750a91a1f09c7c51db53ed708170.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                }
+            ],
+            "offerType": "ONLINE_ONLY",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 51341646,
+            "parentItemId": 51341646,
+            "name": "Faded Glory Men's Straight Fit Jeans",
+            "salePrice": 11.88,
+            "upc": "754819130112",
+            "categoryPath": "Clothing/Men/Men's Bottoms/Men's Jeans",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Faded Glory Men's Straight Fit Jeans:&lt;/b&gt; &lt;ul&gt;&lt;li&gt;100% cotton&lt;/li&gt;&lt;li&gt;Jeans&lt;/li&gt;&lt;li&gt;Straight fit&lt;/li&gt;&lt;li&gt;Button closure with zipper fly&lt;/li&gt;&lt;li&gt;Three front pockets&lt;/li&gt;&lt;li&gt;Two back pockets&lt;/li&gt;&lt;li&gt;Belt loops&lt;/li&gt;&lt;li&gt;Available in assorted colors&lt;/li&gt;&lt;li&gt;Machine wash warm with like colors, do not bleach, tumble dry low, warm iron when needed&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/158570e9-5ce7-408e-b72e-e6173a823dfd_1.bf8b1cade360c4433064d2ca379e548b.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/158570e9-5ce7-408e-b72e-e6173a823dfd_1.bf8b1cade360c4433064d2ca379e548b.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/158570e9-5ce7-408e-b72e-e6173a823dfd_1.bf8b1cade360c4433064d2ca379e548b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FFaded-Glory-Men-s-Straight-Fit-Jeans%252F51341646%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "FM06363",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FFaded-Glory-Men-s-Straight-Fit-Jeans%2F51341646%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.0",
+            "numReviews": 2,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4.gif",
+            "categoryNode": "5438_133197_1228780",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D51341646%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D51341646%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/158570e9-5ce7-408e-b72e-e6173a823dfd_1.bf8b1cade360c4433064d2ca379e548b.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/158570e9-5ce7-408e-b72e-e6173a823dfd_1.bf8b1cade360c4433064d2ca379e548b.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/158570e9-5ce7-408e-b72e-e6173a823dfd_1.bf8b1cade360c4433064d2ca379e548b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/afa3e47f-a00f-4f3d-9313-621ff497c2fb_1.7803644216039fdb8fbf38b7438d1941.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/afa3e47f-a00f-4f3d-9313-621ff497c2fb_1.7803644216039fdb8fbf38b7438d1941.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/afa3e47f-a00f-4f3d-9313-621ff497c2fb_1.7803644216039fdb8fbf38b7438d1941.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 153141000,
+            "parentItemId": 153141000,
+            "name": "Faded Glory Women's Straight Leg Jeans",
+            "msrp": 12.88,
+            "salePrice": 9.88,
+            "upc": "842733130865",
+            "categoryPath": "Clothing/Women/Women's Bottoms/Women's Jeans",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Faded Glory Women's Straight Leg Jeans:&lt;/b&gt; &lt;ul&gt;&lt;li&gt;54% cotton, 26% polyester, 19% rayon, 1% spandex&lt;/li&gt;&lt;li&gt;Jeans&lt;/li&gt;&lt;li&gt;Stretch denim construction&lt;/li&gt;&lt;li&gt;Midrise&lt;/li&gt;&lt;li&gt;Straight leg&lt;/li&gt;&lt;li&gt;Button front with zipper fly&lt;/li&gt;&lt;li&gt;Two front pockets&lt;/li&gt;&lt;li&gt;Two back pockets&lt;/li&gt;&lt;li&gt;Bootcut hem&lt;/li&gt;&lt;li&gt;Contrast stitching&lt;/li&gt;&lt;li&gt;Available in assorted styles&lt;/li&gt;&lt;li&gt;Machine wash cold with like colors, only non-chlorine bleach when needed, tumble dry low, cool iron if needed&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/e2ebeb4e-4d5d-4a09-a171-a7659eb26095_1.10e83c8306529bc6aea813433e6d33f5.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/e2ebeb4e-4d5d-4a09-a171-a7659eb26095_1.10e83c8306529bc6aea813433e6d33f5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/e2ebeb4e-4d5d-4a09-a171-a7659eb26095_1.10e83c8306529bc6aea813433e6d33f5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FFaded-Glory-Straight-Leg-Jean%252F153141000%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "FGL36870DD",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FFaded-Glory-Straight-Leg-Jean%2F153141000%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.813",
+            "numReviews": 15,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_8.gif",
+            "categoryNode": "5438_133162_1228423",
+            "bundle": false,
+            "stock": "Not available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D153141000%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D153141000%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/e2ebeb4e-4d5d-4a09-a171-a7659eb26095_1.10e83c8306529bc6aea813433e6d33f5.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/e2ebeb4e-4d5d-4a09-a171-a7659eb26095_1.10e83c8306529bc6aea813433e6d33f5.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/e2ebeb4e-4d5d-4a09-a171-a7659eb26095_1.10e83c8306529bc6aea813433e6d33f5.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/2fd7785a-33b8-4e6c-bfab-7c8bb526832c_1.e255a979bbf31669717b8f9fe9c7b59b.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/2fd7785a-33b8-4e6c-bfab-7c8bb526832c_1.e255a979bbf31669717b8f9fe9c7b59b.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/2fd7785a-33b8-4e6c-bfab-7c8bb526832c_1.e255a979bbf31669717b8f9fe9c7b59b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/a0cc9a0a-1272-4243-a991-714e74824f47_1.30f9e72436ce1db20bf0d6a9158f3b9f.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/a0cc9a0a-1272-4243-a991-714e74824f47_1.30f9e72436ce1db20bf0d6a9158f3b9f.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/a0cc9a0a-1272-4243-a991-714e74824f47_1.30f9e72436ce1db20bf0d6a9158f3b9f.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": false,
+            "availableOnline": false
+        },
+        {
+            "itemId": 36707539,
+            "parentItemId": 36707539,
+            "name": "Signature by Levi Strauss ; Co.; Women's Curvy Boot Cut Jeans",
+            "salePrice": 19.94,
+            "upc": "052175892218",
+            "categoryPath": "Clothing/Women/Women's Bottoms/Women's Jeans",
+            "shortDescription": "The Signature by Levi Strauss &amp; Co. Women's Curvy Bootcut Jeans are ideal to wear out to a variety of occasions. They feature a flared leg hole to fit over your boots. These women's denim jeans add a slimming look to your waist.",
+            "longDescription": "&lt;b&gt;Signature by Levi Strauss &amp; Co. Women's Curvy Bootcut Jeans:&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Extra-stretchy denim&lt;/li&gt;&lt;li&gt;Contours at waist to eliminate gaping&lt;/li&gt;&lt;li&gt;Curvy through hip and seat&lt;/li&gt;&lt;li&gt;Women's bootcut jeans&lt;/li&gt;&lt;li&gt;Slim through leg&lt;/li&gt;&lt;li&gt;Available in multiple colors&lt;/li&gt;&lt;li&gt;Machine-wash cold&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/cf049fd5-0498-4b38-940c-81269e316cad_1.3256cb1cf7c59b0a425b4af89ad57db1.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/cf049fd5-0498-4b38-940c-81269e316cad_1.3256cb1cf7c59b0a425b4af89ad57db1.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/cf049fd5-0498-4b38-940c-81269e316cad_1.3256cb1cf7c59b0a425b4af89ad57db1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FSignature-by-Levi-Strauss-Co.-Women-s-Curvy-Bootcut-Jeans%252F36707539%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "96979-0005",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FSignature-by-Levi-Strauss-Co.-Women-s-Curvy-Bootcut-Jeans%2F36707539%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.328",
+            "numReviews": 58,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_3.gif",
+            "categoryNode": "5438_133162_1228423",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D36707539%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D36707539%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/93a8baea-acad-4c8b-bb59-7e670b0b5345_1.cd4870936db2d6d56636467493bf21f7.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/93a8baea-acad-4c8b-bb59-7e670b0b5345_1.cd4870936db2d6d56636467493bf21f7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/93a8baea-acad-4c8b-bb59-7e670b0b5345_1.cd4870936db2d6d56636467493bf21f7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/35980fb6-c8ef-44c8-b0ef-e1c4e8dfca4f_1.834113b0b9f70bfdd33b7b701ca17c21.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/35980fb6-c8ef-44c8-b0ef-e1c4e8dfca4f_1.834113b0b9f70bfdd33b7b701ca17c21.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/35980fb6-c8ef-44c8-b0ef-e1c4e8dfca4f_1.834113b0b9f70bfdd33b7b701ca17c21.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/a815432c-f15a-4f68-a498-9be5b27ed169_1.cd4870936db2d6d56636467493bf21f7.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/a815432c-f15a-4f68-a498-9be5b27ed169_1.cd4870936db2d6d56636467493bf21f7.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/a815432c-f15a-4f68-a498-9be5b27ed169_1.cd4870936db2d6d56636467493bf21f7.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/cf049fd5-0498-4b38-940c-81269e316cad_1.3256cb1cf7c59b0a425b4af89ad57db1.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/cf049fd5-0498-4b38-940c-81269e316cad_1.3256cb1cf7c59b0a425b4af89ad57db1.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/cf049fd5-0498-4b38-940c-81269e316cad_1.3256cb1cf7c59b0a425b4af89ad57db1.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                }
+            ],
+            "offerType": "ONLINE_ONLY",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 15746580,
+            "parentItemId": 15746580,
+            "name": "Faded Glory Men's Relaxed Fit Jeans",
+            "salePrice": 9.96,
+            "upc": "754819099518",
+            "categoryPath": "Clothing/Men/Men's Bottoms/Men's Jeans",
+            "shortDescription": "Faded Glory Men's Jeans offer comfort and style. They are the ideal choice for work, play and everything in between. The 5 pocket styling makes it convenient to store all your belongings. Pair the men's cotton jeans with t-shirts, polos, or button up shirts and a cool pair of sandals or sneakers for a casual look. Assorted colors are available so you can find the ones that meet your fashion needs. The jeans are made from 100 percent cotton and are machine-washable for easy care. They have a button and zipper closure for easy on and off. The jeans are a good choice for everyday wear. They are constructed with durability to ensure they hold up.",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Faded Glory Men's Relaxed Jeans&lt;/b&gt;:&lt;ul&gt;&lt;li&gt;100 percent cotton&lt;/li&gt;&lt;li&gt;5 pocket style&lt;/li&gt;&lt;li&gt;Relaxed fit jeans&lt;/li&gt;&lt;li&gt;Belt loops&lt;/li&gt;&lt;li&gt;Button and zipper closure&lt;/li&gt;&lt;li&gt;The men's relaxed jeans are machine-wash cold&lt;/li&gt;&lt;/ul&gt;&lt;ul class=&quot;noindent&quot;&gt;&lt;li&gt;Also available in &lt;a href=&quot;https://www.walmart.com/ip/15746629&quot;&gt;Big and Tall sizes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/102b4d00-2c53-4887-b372-d1adb7915dc1_1.ef53dbe78b7470befa275ca8734d44db.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/102b4d00-2c53-4887-b372-d1adb7915dc1_1.ef53dbe78b7470befa275ca8734d44db.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/102b4d00-2c53-4887-b372-d1adb7915dc1_1.ef53dbe78b7470befa275ca8734d44db.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FFaded-Glory-Men-s-Relaxed-Fit-Jeans%252F15746580%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "371FG",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FFaded-Glory-Men-s-Relaxed-Fit-Jeans%2F15746580%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.441",
+            "numReviews": 297,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_4.gif",
+            "categoryNode": "5438_133197_1228780",
+            "bundle": false,
+            "stock": "Not available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D15746580%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D15746580%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/36613b03-83e6-49a3-8ed3-327a2dd48863_1.4615f05f7ddb195d69531eb3c98dade3.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/36613b03-83e6-49a3-8ed3-327a2dd48863_1.4615f05f7ddb195d69531eb3c98dade3.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/36613b03-83e6-49a3-8ed3-327a2dd48863_1.4615f05f7ddb195d69531eb3c98dade3.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/102b4d00-2c53-4887-b372-d1adb7915dc1_1.ef53dbe78b7470befa275ca8734d44db.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/102b4d00-2c53-4887-b372-d1adb7915dc1_1.ef53dbe78b7470befa275ca8734d44db.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/102b4d00-2c53-4887-b372-d1adb7915dc1_1.ef53dbe78b7470befa275ca8734d44db.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": false,
+            "availableOnline": false
+        },
+        {
+            "itemId": 24430481,
+            "parentItemId": 24430481,
+            "name": "Signature by Levi Strauss & Co. Modern Bootcut Jeans",
+            "salePrice": 19.94,
+            "upc": "052175812179",
+            "categoryPath": "Clothing/Women/Women's Bottoms/Women's Jeans",
+            "shortDescription": "Show off your body with the Signature by Levi Strauss &amp; Co. Women's Modern Bootcut Jeans. These fashionable jeans sit below your natural waist for a comfortable fit while the slimmer seat and thigh is designed to make you look long and lean. The traditional 5-pocket styling with bootcut leg opening is perfect for going casual or dressing up your look. The lighter weight, extra stretchy denim provides superior comfort while contouring your curves and creating a longer, sexier silhouette. Signature by Levi Strauss &amp; Co. Women's Modern Bootcut Jeans are available in three different lengths (short, medium, long), so every woman can enjoy these great fitting, chic jeans. Perfect your look with comfort and style. Add Signature by Levi Strauss &amp; Co. Women's Modern Bootcut Jeans to your closet today.",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Signature by Levi Strauss &amp; Co. Modern Bootcut Jeans&lt;/b&gt;&lt;ul&gt;&lt;li&gt;Cotton blend&lt;/li&gt;&lt;li&gt;Super stretch with snap back denim holds your shape all day long&lt;/li&gt;&lt;li&gt;5 pocket styling&lt;/li&gt;&lt;li&gt;Button and zipper closure&lt;/li&gt;&lt;li&gt;Belt loops&lt;/li&gt;&lt;li&gt;Bootcut leg opening&lt;/li&gt;&lt;li&gt;Long and lean design&lt;/li&gt;&lt;li&gt;Sits lower on waist&lt;/li&gt;&lt;li&gt;Slim through hip and thigh&lt;/li&gt;&lt;li&gt;Machine wash cold&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/9145b285-5a95-4867-a72b-346823c89e09_1.bcb6f827f38070225035d50a6fbdc32a.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/9145b285-5a95-4867-a72b-346823c89e09_1.bcb6f827f38070225035d50a6fbdc32a.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/9145b285-5a95-4867-a72b-346823c89e09_1.bcb6f827f38070225035d50a6fbdc32a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FSignature-by-Levi-Strauss-Co.-Modern-Bootcut-Jeans%252F24430481%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "94362-0001",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FSignature-by-Levi-Strauss-Co.-Modern-Bootcut-Jeans%2F24430481%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.113",
+            "numReviews": 248,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_1.gif",
+            "categoryNode": "5438_133162_1228423",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D24430481%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D24430481%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/c5a311a2-5ffa-457c-b83e-8dee72f44ece_1.5974cb817f479b2b3c4770297be11efb.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/c5a311a2-5ffa-457c-b83e-8dee72f44ece_1.5974cb817f479b2b3c4770297be11efb.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/c5a311a2-5ffa-457c-b83e-8dee72f44ece_1.5974cb817f479b2b3c4770297be11efb.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/9145b285-5a95-4867-a72b-346823c89e09_1.bcb6f827f38070225035d50a6fbdc32a.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/9145b285-5a95-4867-a72b-346823c89e09_1.bcb6f827f38070225035d50a6fbdc32a.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/9145b285-5a95-4867-a72b-346823c89e09_1.bcb6f827f38070225035d50a6fbdc32a.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 13013022,
+            "parentItemId": 13013022,
+            "name": "Signature by Levi Strauss ; Co.;  Women's Totally Slimming At Waist Boot Cut Jeans",
+            "salePrice": 19.88,
+            "upc": "052175414588",
+            "categoryPath": "Clothing/Women/Women's Bottoms/Women's Jeans",
+            "shortDescription": "Love your body with Signature by Levi Strauss &amp; Co. Women's Totally Slimming At-Waist Bootcut Jeans. These fashionable jeans sit at your natural waist, providing comfort while the built in tummy slimming technology both slims and flatters your curves. These jeans feature traditional 5-pocket styling with the versatility of a bootcut leg opening, perfect for going casual or dressing up your look. Signature by Levi Strauss &amp; Co. Women's Totally Slimming At-Waist Bootcut Jeans are available in three different lengths (short, medium, long), so every woman can enjoy the Totally Slimming effect of these chic jeans. Perfect your silhouette comfortably without sacrificing style. Add Signature by Levi Strauss &amp; Co. Women's Totally Slimming At-Waist Bootcut Jeans to your closet today.",
+            "longDescription": "&lt;b&gt;Signature by Levi Strauss &amp; Co. Women's Totally Slimming At-Waist Bootcut Jeans&lt;/b&gt;:&lt;br&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Totally Slimming technology&lt;/li&gt;&lt;li&gt;Super stretch with snap back denim holds your shape all day long&lt;/li&gt;&lt;li&gt;Fashionable jeans feature a bootcut leg&lt;/li&gt;&lt;li&gt;Fitted through hip and thigh&lt;/li&gt;&lt;li&gt;Sits at the natural waist to enhance your look&lt;/li&gt;&lt;li&gt;5-pocket styling for holding wallets, IDs, coins, phones and other accessories&lt;/li&gt;&lt;li&gt;Button and zipper closure for security&lt;/li&gt;&lt;li&gt;Available in several lengths: short (29&quot; inseam); medium (31&quot; inseam); long (33&quot; inseam)&lt;/li&gt;&lt;li&gt;Machine-wash&lt;/li&gt;&lt;li&gt;Comes in sizes 4 through 18 in each length&lt;/li&gt;&lt;li&gt;Blue jeans are available in legend, 30-minute stone or raven&lt;/li&gt;&lt;li&gt;Ideal for going casual or dressing up your look&lt;/li&gt;&lt;li&gt;Pick and pair with your favorite tops&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/29202aa8-a251-4afb-9cfa-0871bca63bdb_1.e4563743eec583d2f2797d8650d15168.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/29202aa8-a251-4afb-9cfa-0871bca63bdb_1.e4563743eec583d2f2797d8650d15168.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/29202aa8-a251-4afb-9cfa-0871bca63bdb_1.e4563743eec583d2f2797d8650d15168.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FSignature-by-Levi-Strauss-Co.-Women-s-Totally-Slimming-At-Waist-Bootcut-Jeans%252F13013022%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "984510018",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FSignature-by-Levi-Strauss-Co.-Women-s-Totally-Slimming-At-Waist-Bootcut-Jeans%2F13013022%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.667",
+            "numReviews": 3,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_7.gif",
+            "categoryNode": "5438_133162_1228423",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D13013022%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D13013022%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/29202aa8-a251-4afb-9cfa-0871bca63bdb_1.e4563743eec583d2f2797d8650d15168.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/29202aa8-a251-4afb-9cfa-0871bca63bdb_1.e4563743eec583d2f2797d8650d15168.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/29202aa8-a251-4afb-9cfa-0871bca63bdb_1.e4563743eec583d2f2797d8650d15168.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/fdd6dbd7-24cd-4079-a991-f391ea05b159_1.e90dfa1e0b18a73c6a50311948444c1d.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/fdd6dbd7-24cd-4079-a991-f391ea05b159_1.e90dfa1e0b18a73c6a50311948444c1d.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/fdd6dbd7-24cd-4079-a991-f391ea05b159_1.e90dfa1e0b18a73c6a50311948444c1d.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                }
+            ],
+            "offerType": "ONLINE_ONLY",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        },
+        {
+            "itemId": 2668255,
+            "parentItemId": 2668255,
+            "name": "Wrangler Men's Relaxed Fit Jean",
+            "msrp": 16.77,
+            "salePrice": 15.04,
+            "upc": "672787943797",
+            "categoryPath": "Clothing/Men/Men's Bottoms/Men's Jeans",
+            "shortDescription": "These Wrangler Men's Relaxed Fit Jeans are great for every man&rsquo;s wardrobe. These jeans feature distressed wash and relaxed fit that put a nice spin on your classic pair of jeans. Pair these with a tee or button down top and boots.Also available in &lt;a href=&quot;http://www.walmart.com/ip/3395845&quot;&gt;&lt;b&gt;Men's Big&lt;/b&gt;&lt;/a&gt; sizes",
+            "longDescription": "&lt;br&gt;&lt;b&gt;Wrangler Men's Relaxed Fit Jeans&lt;/b&gt;:&lt;ul&gt;&lt;li&gt;Cotton/PolyesterBlend&lt;/li&gt;&lt;li&gt;Machine Wash Cold&lt;/li&gt;&lt;li&gt;Wrangler&lt;/li&gt;&lt;li&gt;Relaxed Fit Jeans&lt;/li&gt;&lt;li&gt;5 Pockets&lt;/li&gt;&lt;li&gt;Belted&lt;/li&gt;&lt;li&gt;Button Closure w/ Zipper fly&lt;/li&gt;&lt;li&gt;Available in Assorted Colors&lt;/li&gt;&lt;li&gt;Also available in &lt;a href=&quot;https://www.walmart.com/ip/3395845&quot;&gt;Big and Tall sizes&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;",
+            "thumbnailImage": "https://i5.walmartimages.com/asr/9844d1bb-e094-4cfa-81f3-9af91f9fb0f2_1.c3e8df83ba70aca9e9023b1a483b64b2.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+            "mediumImage": "https://i5.walmartimages.com/asr/9844d1bb-e094-4cfa-81f3-9af91f9fb0f2_1.c3e8df83ba70aca9e9023b1a483b64b2.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+            "largeImage": "https://i5.walmartimages.com/asr/9844d1bb-e094-4cfa-81f3-9af91f9fb0f2_1.c3e8df83ba70aca9e9023b1a483b64b2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+            "productTrackingUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=https%253A%252F%252Fwww.walmart.com%252Fip%252FWrangler-Men-s-Relaxed-Fit-Jeans%252F2668255%253Faffp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "standardShipRate": 5.99,
+            "marketplace": false,
+            "modelNumber": "97601VR",
+            "productUrl": "http://c.affil.walmart.com/t/api02?l=https%3A%2F%2Fwww.walmart.com%2Fip%2FWrangler-Men-s-Relaxed-Fit-Jeans%2F2668255%3Faffp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "customerRating": "4.597",
+            "numReviews": 1661,
+            "customerRatingImage": "http://i2.walmartimages.com/i/CustRating/4_6.gif",
+            "categoryNode": "5438_133197_1228780",
+            "bundle": false,
+            "stock": "Available",
+            "addToCartUrl": "http://c.affil.walmart.com/t/api02?l=http%3A%2F%2Faffil.walmart.com%2Fcart%2FaddToCart%3Fitems%3D2668255%7C1%26affp1%3D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%26affilsrc%3Dapi%26veh%3Daff%26wmlspartner%3Dreadonlyapi",
+            "affiliateAddToCartUrl": "http://linksynergy.walmart.com/fs-bin/click?id=|LSNID|&offerid=223073.7200&type=14&catid=8&subid=0&hid=7200&tmpid=1082&RD_PARM1=http%253A%252F%252Faffil.walmart.com%252Fcart%252FaddToCart%253Fitems%253D2668255%257C1%2526affp1%253D_c3k9xdaNz9GOjv8SZBQt2Vu8mcmXsc2rH6LgOcD3pw%2526affilsrc%253Dapi",
+            "giftOptions": {
+                "allowGiftWrap": false,
+                "allowGiftMessage": false,
+                "allowGiftReceipt": false
+            },
+            "imageEntities": [{
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/d48b78f7-4094-42cd-850f-18d042a82bb6_1.58620133c5d6dcadeb33ef9c205cfd41.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/d48b78f7-4094-42cd-850f-18d042a82bb6_1.58620133c5d6dcadeb33ef9c205cfd41.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/d48b78f7-4094-42cd-850f-18d042a82bb6_1.58620133c5d6dcadeb33ef9c205cfd41.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/42b6d18f-b277-4678-b4e5-ac491288d60e_1.fd2f9bbabdb2b8fa24946bbb88eb832b.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/42b6d18f-b277-4678-b4e5-ac491288d60e_1.fd2f9bbabdb2b8fa24946bbb88eb832b.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/42b6d18f-b277-4678-b4e5-ac491288d60e_1.fd2f9bbabdb2b8fa24946bbb88eb832b.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/9844d1bb-e094-4cfa-81f3-9af91f9fb0f2_1.c3e8df83ba70aca9e9023b1a483b64b2.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/9844d1bb-e094-4cfa-81f3-9af91f9fb0f2_1.c3e8df83ba70aca9e9023b1a483b64b2.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/9844d1bb-e094-4cfa-81f3-9af91f9fb0f2_1.c3e8df83ba70aca9e9023b1a483b64b2.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "PRIMARY"
+                },
+                {
+                    "thumbnailImage": "https://i5.walmartimages.com/asr/9ff3ae9a-8b94-4d76-a094-fccd0c396f23_1.7df4ccb78f3b87d7c578bf1a184fad90.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF",
+                    "mediumImage": "https://i5.walmartimages.com/asr/9ff3ae9a-8b94-4d76-a094-fccd0c396f23_1.7df4ccb78f3b87d7c578bf1a184fad90.jpeg?odnHeight=180&odnWidth=180&odnBg=FFFFFF",
+                    "largeImage": "https://i5.walmartimages.com/asr/9ff3ae9a-8b94-4d76-a094-fccd0c396f23_1.7df4ccb78f3b87d7c578bf1a184fad90.jpeg?odnHeight=450&odnWidth=450&odnBg=FFFFFF",
+                    "entityType": "SECONDARY"
+                }
+            ],
+            "offerType": "ONLINE_AND_STORE",
+            "isTwoDayShippingEligible": true,
+            "availableOnline": true
+        }
+    ],
+    "facets": []
+}
