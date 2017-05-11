@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-
+import SearchBar from './components/SearchBar';
 
 
 
@@ -10,14 +10,14 @@ class App extends Component {
     super(props);
 
     this.state = {
-      items: []
+      userItems: []
     };
   }
 
   render() {
     return (
       <div>
-       
+        <SearchBar />
       </div>
     );
   }
