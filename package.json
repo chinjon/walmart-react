@@ -4,10 +4,9 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
-    "glamor": "^2.20.25",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
-    "semantic-ui-react": "^0.68.3"
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
