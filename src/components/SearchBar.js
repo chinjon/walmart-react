@@ -55,6 +55,8 @@ export default class SearchBar extends Component {
                     <button type="submit">Submit</button>
                 </p>
                 </form>
+
+
             </div>
         )
     }
