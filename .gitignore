@@ -1,6 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 /server/routes/hide.js
+/src/hide.js
+/tests/fetch.js
 
 # dependencies
 /node_modules

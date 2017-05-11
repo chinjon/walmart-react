@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "axios": "^0.16.1",
+    "radium": "^0.18.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-http-request": "^1.0.3"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
