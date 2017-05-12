@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
+import Radium from 'radium';
 import {KEY} from './../hide';
 
 import SearchInput from './grandchildren/SearchInput';
 
-export default class SearchBar extends Component {
+const style = {
+    searchBar:{
+        marginTop: "5em",
+    }
+}
+
+class SearchBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -72,7 +79,7 @@ export default class SearchBar extends Component {
     render() {
         const {results} = this.state;
         return (
-            <div>
+            <div style={style.searchBar}>
                 <form className="field is-horzontal" onSubmit={this.handleSubmit}>
                     <div className="field-body">
                         <div className="field">
@@ -106,3 +113,5 @@ export default class SearchBar extends Component {
         )
     }
 }
+
+export default Radium(SearchBar);

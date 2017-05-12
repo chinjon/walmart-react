@@ -25,7 +25,7 @@ class App extends Component {
 
   render() {
     return (
-      <div className="ui container">
+      <div>
         <Hero/>
         <Search>
           <SearchBar/>
