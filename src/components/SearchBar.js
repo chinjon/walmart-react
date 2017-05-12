@@ -9,6 +9,7 @@ export default class SearchBar extends Component {
         this.state = {
             query: "",
             results: "",
+            selectDropdown: ""
         }
         this.onInputChange = this.onInputChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -22,17 +23,19 @@ export default class SearchBar extends Component {
         const name = target.name;
         this.setState({[name]: target.value});
         console.log(this.state[name]);
-        if(this.state[name]) {
+
+        if(this.state.query) {
             this.fetchWalmartSearch(this.state[name])
         }
         event.preventDefault();
     }
+    
 
     setSearchResults(results) {
-    this.setState({results})
-    console.log("setSearchResults() called")
-    console.log(this.state.results)
-}
+        this.setState({results})
+        console.log("setSearchResults() called")
+        console.log(this.state.results)
+    }
     componentDidMount(){
         // const {query} = this.state;
         // this.fetchWalmartSearch(query)
@@ -47,42 +50,22 @@ export default class SearchBar extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        // this.fetchWalmartSearch(this.state.query);
+        console.log("value is ", this.state.value)
     }
 
-    /*renderDropDown(data) {
-        return (
-            <div className="field">
-                <p className="control">
-                    <span className="select">
-                    <select>
-                        <option>Enter New Search</option>
-                        {
-                            data.map((e,i)=>{
-                               return <option key={i} value={i}>{e.name}</option>
-                            })
-                        }
-                    </select>
-                    </span>
-                </p>
-            </div>
-        )
-    }*/
     renderDropDown(data) {
         return (
             <datalist id="resultItems">
-                <span clasName="control">
-                    <select>
-                    {
-                        data.map((e,i)=>{
-                            return <option key={i} value={e.name}/>
-                        })
-                    }
-                </select>
+                <span className="control">
+                    <select onChange={this.onInputChange.bind(this)} value={this.state.selectDropdown}>
+                        {
+                            data.map((e,i)=>{
+                                return <option itemId={e.itemId} key={i} value={e.name}/>
+                            })
+                        }
+                    </select>
                 </span>
-                
-            </datalist>
-                       
+            </datalist>             
         )
     }
 
@@ -91,8 +74,9 @@ export default class SearchBar extends Component {
         return (
             <div>
                 <form className="field is-horzontal" onSubmit={this.handleSubmit}>
-                    <div className="field-body is-grouped">
-                        <div className="control is-expanded">
+                    <div className="field-body">
+                        <div className="field">
+                             <p className="control is-expanded">
                              <SearchInput    
                                 placeholder="Search Query"
                                 list="resultItems"
@@ -102,16 +86,17 @@ export default class SearchBar extends Component {
                                 name="query"
                             />
                             {
-                                results.length > 0 ? 
-                                this.renderDropDown(results)             
-                                : 
-                               null
-
+                                results.length > 0 ? this.renderDropDown(results): null
                             }
+                            </p>
                         </div>
-                        <button className="control button" type="submit">Submit</button>
-
-                   
+                       <div className="field">
+                       <p className="control is-expanded">
+                            <SearchInput />
+                        </p>
+                       </div>
+                        
+                        <button className="control button is-primary" type="submit">Save Item</button>               
                     </div>
                     
                 </form>
