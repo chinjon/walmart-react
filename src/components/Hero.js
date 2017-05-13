@@ -7,7 +7,7 @@ class Hero extends Component {
             <section className="hero is-info has-text-centered is-bold is-medium">
                 <div className="hero-body">
                     <div className="container">
-                        <h1 className="title">
+                        <h1 className="title is-1 is-spaced">
                             Walmart Stash
                         </h1>
                         <h2 className="subtitle">
