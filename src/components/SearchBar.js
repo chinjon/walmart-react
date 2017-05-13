@@ -24,6 +24,7 @@ class SearchBar extends Component {
         this.fetchWalmartSearch = this.fetchWalmartSearch.bind(this);
         this.setSearchResults = this.setSearchResults.bind(this);
         this.renderDropDown = this.renderDropDown.bind(this);
+        this.sendToLocalStorage = this.sendToLocalStorage.bind(this);
     }
 
     onInputChange = event => {
@@ -40,9 +41,19 @@ class SearchBar extends Component {
    
 
     setSearchResults(results) {
-        this.setState({results})
-        console.log("setSearchResults() called")
+        const trimmedResults = results.map((e)=>{
+                let newObj = {
+                    name: e.name,
+                    category: e.categoryPath,
+                    img: e.thumbnailImage,
+                    rating: e.customerRating,
+                    url: e.productUrl
+                }
+                return newObj;
+            })
+            this.setState({results: trimmedResults});
     }
+
     componentDidMount(){
         // const {query} = this.state;
         // this.fetchWalmartSearch(query)
@@ -54,16 +65,29 @@ class SearchBar extends Component {
             .then(result => this.setSearchResults(result.items));
     }
 
+    sendToLocalStorage = event => {
+        event.preventDefault();
+        console.log("sendToLocalStorage() fired")
+        console.log("this will save: ", this.state.query);
+    }
+
+    grabSelectItemFromArr(data, userSelect) {
+        const selectedItem = data.map((e)=>{
+            if(userSelect === e.name) {
+            }
+        })
+    }
+
     handleSubmit(e) {
         e.preventDefault();
-        console.log("value is ", this.state.value)
+        console.log("value is ", this.state.query)
     }
 
     renderDropDown(data) {
         return (
             <datalist id="resultItems" value={this.state.selectDropdown}>
                 <span className="control">
-                    <select onChange={this.onInputChange.bind(this)}>
+                    <select onChange={this.onInputChange.bind(this)} name="selectDropdown" value={this.state.selectDropdown}>
                         {
                             data.map((e,i)=>{
                                 return <option data-itemId={e.itemId} key={i} value={e.name}/>
@@ -102,7 +126,7 @@ class SearchBar extends Component {
                         </p>
                        </div>
                         
-                        <button className="control button is-primary" type="submit">Save Item</button>               
+                        <button className="control button is-primary" type="submit" onClick={this.sendToLocalStorage.bind(this)}>Save Item</button>               
                     </div>
                     
                 </form>

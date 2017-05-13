@@ -6,14 +6,25 @@ class Search extends Component {
         super(props);
 
         this.state = {
-            userLocalItems: []
+            walmartStash: ""
         }
     }
 
     setUserItems(items){
         this.setState({
-            
+            walmartStash: items
         })
+    }
+
+    componentDidMount() {
+        if(localStorage.getItem("walmartStash")){
+           let retrieveStash = JSON.parse(localStorage.getItem("walmartStash"));
+           this.setState({
+               walmartStash: retrieveStash
+           })
+        } else {
+            console.log("Sorry the stash is empty")
+        }
     }
 
     render(){

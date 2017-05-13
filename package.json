@@ -6,7 +6,8 @@
     "axios": "^0.16.1",
     "radium": "^0.18.2",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-notification-system": "^0.2.14"
   },
   "devDependencies": {
     "react-scripts": "0.9.5"
