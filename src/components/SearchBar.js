@@ -7,6 +7,9 @@ import SearchInput from './grandchildren/SearchInput';
 const style = {
     searchBar:{
         marginTop: "5em",
+        border: "solid #000 1px",
+        padding: "3em",
+        borderRadius: "10px",
     }
 }
 
@@ -49,7 +52,7 @@ class SearchBar extends Component {
                     category: e.categoryPath,
                     img: e.thumbnailImage,
                     price: e.salePrice,
-                    msrp: e.msrp || null,
+                    msrp: e.msrp || 0,
                     reviews: {
                         rating: e.customerRating || 0,
                         numReviews: e.numReviews || 0

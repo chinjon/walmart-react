@@ -39,8 +39,12 @@ class Search extends Component {
 
     render(){
         return (
-            <div className="container" style={style.base}>
+            <div className="container">
+                <div className="columns" style={style.base}>
+            <div className="column">
                 {this.props.children}
+            </div>
+            </div>
             </div>
         )
     }

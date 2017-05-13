@@ -2,6 +2,18 @@ import React, {Component} from 'react';
 
 import Radium from "radium";
 
+const style = {
+    table: {
+        margin: "4em auto",
+        border: "solid #000 1px",
+        padding: "3em",
+        borderRadius: "10px",
+    },
+    itemImg: {
+        width: 50,
+        height: 50
+    }
+}
 
 class StoredResults extends Component {
     constructor(props){
@@ -29,7 +41,7 @@ class StoredResults extends Component {
 
     renderTable(data) {
         return (
-            <table className="table">
+            <table className="table has-text-centered" style={style.table}>
                 <thead>
                     <tr>
                         <th>Product</th>
@@ -45,7 +57,24 @@ class StoredResults extends Component {
                         data.map((e,i)=>{
                             return (
                             <tr key={i}>
-                                <td><span><img src={e.img} alt={e.name}/>{e.name}</span></td>
+                                <td>
+                                    <span>
+                                        <img style={style.itemImg} src={e.img} alt={e.name} className="is-pulled-left"/>
+                                        {e.name}
+                                    </span>
+                                </td>
+                                <td>
+                                    {e.category}
+                                </td>
+                                <td>
+                                    {e.price.toFixed(2)}
+                                </td>
+                                <td>
+                                    {e.msrp.toFixed(2)}
+                                </td>
+                                <td>
+                                    <span>{Math.floor(e.reviews.rating)}<strong>({e.reviews.numReviews})</strong></span>
+                                </td>
                             </tr>
                             )
                         }) 
@@ -74,4 +103,4 @@ class StoredResults extends Component {
     }
 }
 
-export default StoredResults;
+export default Radium(StoredResults);
