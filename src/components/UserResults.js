@@ -11,12 +11,16 @@ const style = {
     },
     itemImg: {
         width: 50,
-        height: 50
+        height: 50,
+        marginRight: "1.5em"
     },
     fadeInUp: {
         animation: 'x 1.5s',
-        animationName: Radium.keyframes(fadeInUp, "fadeInUp")
+        animationName: Radium.keyframes(fadeInUp, "fadeInUp"),
     },
+    tableItem: {
+        padding: "5em"
+    }
 }
 
 class StoredResults extends Component {
@@ -28,6 +32,7 @@ class StoredResults extends Component {
         }
 
         this.renderTable = this.renderTable.bind(this);
+        this.handleDeleteItem = this.handleDeleteItem.bind(this);
     }
 
     componentDidMount() {
@@ -43,6 +48,11 @@ class StoredResults extends Component {
         }
     }
 
+
+    handleDeleteItem(){
+
+    }
+
     renderTable(data) {
         return (
                                             
@@ -55,6 +65,7 @@ class StoredResults extends Component {
                         <th>Price</th>
                         <th>MSRP</th>
                         <th>Reviews</th>
+                        <th></th>
                     </tr>
                 </thead>
                 
@@ -65,12 +76,19 @@ class StoredResults extends Component {
                         data.map((e,i)=>{
                             return (
                                 
-                            <tr key={i} style={style.fadeInUp}>
+                            <tr key={i} style={[style.fadeInUp, style.tableItem]}>
                                 <td>
                                     <span>
                                         <img style={style.itemImg} src={e.img} alt={e.name} className="is-pulled-left"/>
                                         {e.name}
                                     </span>
+                                    <button className="button is-pulled-right is-outlined ">
+                                        <a href={e.url} target="_blank">
+                                        <span className="icon is-small">
+                                            <i className="fa fa-external-link" aria-hidden="true"></i>
+                                        </span>
+                                        </a>
+                                    </button>
                                 </td>
                                 <td>
                                     {e.category}
@@ -83,6 +101,13 @@ class StoredResults extends Component {
                                 </td>
                                 <td>
                                     <span>{Math.floor(e.reviews.rating)} <strong>({e.reviews.numReviews})</strong></span>
+                                </td>
+                                <td>
+                                    <button className="button is-danger is-outlined">
+                                        <span className="icon is-small">
+                                        <i className="fa fa-trash"></i>
+                                        </span>
+                                    </button>
                                 </td>
                             </tr>
 
