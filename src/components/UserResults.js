@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+import Radium from "radium";
+
+
 class StoredResults extends Component {
     constructor(props){
         super(props);
@@ -7,6 +10,8 @@ class StoredResults extends Component {
         this.state ={
             data: ""
         }
+
+        this.renderTable = this.renderTable.bind(this);
     }
 
     componentDidMount() {
@@ -17,11 +22,42 @@ class StoredResults extends Component {
             this.setState({
                 data: stored
             });
-
-            
         } else {
             console.log("This stash is empty")
         }
+    }
+
+    renderTable(data) {
+        return (
+            <table className="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Price</th>
+                        <th>MSRP</th>
+                        <th>Reviews</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {
+                        data ?
+                        data.map((e,i)=>{
+                            return (
+                            <tr key={i}>
+                                <td><span><img src={e.img} alt={e.name}/>{e.name}</span></td>
+                            </tr>
+                            )
+                        }) 
+                        : null
+                    }
+                </tbody>
+            </table>
+        )
+    }
+
+    componentDidUpdate(){
+
     }
 
     render(){
@@ -30,10 +66,7 @@ class StoredResults extends Component {
             <div>
                 <ul>
                     {
-                        data ? 
-                        data.map((e,i)=>{
-                            return <li key={i}><span className="image is-64x64"><img src={e.img} alt={e.name} /></span><a href={e.url}>{e.name}</a><span className="icon is-medium"><i className="fa fa-external-link"></i></span></li>
-                        }) : null
+                        this.renderTable(data)
                     }
                 </ul>
             </div>

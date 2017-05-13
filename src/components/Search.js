@@ -33,7 +33,7 @@ class Search extends Component {
            })
            console.log(this.state.walmartStash);
         } else {
-            console.log("Sorry the stash is empty")
+            console.log("Sorry the stash is empty");
         }
     }
 

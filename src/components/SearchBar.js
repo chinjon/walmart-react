@@ -48,7 +48,12 @@ class SearchBar extends Component {
                     name: e.name,
                     category: e.categoryPath,
                     img: e.thumbnailImage,
-                    rating: e.customerRating,
+                    price: e.salePrice,
+                    msrp: e.msrp || null,
+                    reviews: {
+                        rating: e.customerRating || 0,
+                        numReviews: e.numReviews || 0
+                    },
                     url: e.productUrl
                 }
                 return newObj;
@@ -73,8 +78,13 @@ class SearchBar extends Component {
 
     setToLocalStorage(item){
         const stashedItems = JSON.parse(localStorage.getItem("walmartStash"));
-        const newArr = stashedItems.concat(item);
-        localStorage.setItem("walmartStash", JSON.stringify(newArr));
+        if(stashedItems) {
+            const newArr = stashedItems.concat(item);
+            localStorage.setItem("walmartStash", JSON.stringify(newArr));
+        } else {
+            localStorage.setItem("walmartStash", JSON.stringify(item))
+        }
+        
     }
 
     grabSelectItemFromResults(data, userSelect) {
