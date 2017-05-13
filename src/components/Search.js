@@ -31,6 +31,7 @@ class Search extends Component {
            this.setState({
                walmartStash: retrieveStash
            })
+           console.log(this.state.walmartStash);
         } else {
             console.log("Sorry the stash is empty")
         }

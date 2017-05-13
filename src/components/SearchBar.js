@@ -71,21 +71,16 @@ class SearchBar extends Component {
         const {results, query} = this.state;
         console.log("sendToLocalStorage() fired");
         // console.log("this will save: ", query);
-        this.grabSelectItemFromArr(results, query)
+        let storeItem = this.grabSelectItemFromArr(results, query);
+        console.log(storeItem);
     }
 
     grabSelectItemFromArr(data, userSelect) {
         console.log(userSelect);
-
-        const selectedItem = data.map((e)=>{
-            if(userSelect === e.name) {
-                console.log("matched")
-                console.log(e)
-            }
-            return e
+        let foundItem = data.filter((e)=>{
+            return e.name === userSelect
         })
-
-        console.log(selectedItem)
+        return foundItem
     }
 
     handleSubmit(e) {
