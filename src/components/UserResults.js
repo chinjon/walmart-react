@@ -67,13 +67,13 @@ class StoredResults extends Component {
                                     {e.category}
                                 </td>
                                 <td>
-                                    {e.price.toFixed(2)}
+                                    {`$${e.price.toFixed(2)}`}
                                 </td>
                                 <td>
-                                    {e.msrp.toFixed(2)}
+                                    {`$${e.msrp.toFixed(2)}`}
                                 </td>
                                 <td>
-                                    <span>{Math.floor(e.reviews.rating)}<strong>({e.reviews.numReviews})</strong></span>
+                                    <span>{Math.floor(e.reviews.rating)} <strong>({e.reviews.numReviews})</strong></span>
                                 </td>
                             </tr>
                             )
