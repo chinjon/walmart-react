@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
-
-import Radium from "radium";
+import { fadeInUp } from 'react-animations';
+import Radium, {StyleRoot} from "radium";
 
 const style = {
     table: {
@@ -12,7 +12,11 @@ const style = {
     itemImg: {
         width: 50,
         height: 50
-    }
+    },
+    fadeInUp: {
+        animation: 'x 1.5s',
+        animationName: Radium.keyframes(fadeInUp, "fadeInUp")
+    },
 }
 
 class StoredResults extends Component {
@@ -41,7 +45,9 @@ class StoredResults extends Component {
 
     renderTable(data) {
         return (
-            <table className="table has-text-centered" style={style.table}>
+                                            
+            <table className="table has-text-centered" >
+
                 <thead>
                     <tr>
                         <th>Product</th>
@@ -51,12 +57,15 @@ class StoredResults extends Component {
                         <th>Reviews</th>
                     </tr>
                 </thead>
+                
                 <tbody>
+
                     {
                         data ?
                         data.map((e,i)=>{
                             return (
-                            <tr key={i}>
+                                
+                            <tr key={i} style={style.fadeInUp}>
                                 <td>
                                     <span>
                                         <img style={style.itemImg} src={e.img} alt={e.name} className="is-pulled-left"/>
@@ -76,12 +85,15 @@ class StoredResults extends Component {
                                     <span>{Math.floor(e.reviews.rating)} <strong>({e.reviews.numReviews})</strong></span>
                                 </td>
                             </tr>
+
                             )
                         }) 
                         : null
                     }
+
                 </tbody>
             </table>
+
         )
     }
 
@@ -92,12 +104,12 @@ class StoredResults extends Component {
     render(){
         const {data} = this.state;
         return(
-            <div>
-                <ul>
+            <div style={style.table}>
+                <StyleRoot>
                     {
                         this.renderTable(data)
                     }
-                </ul>
+                </StyleRoot>
             </div>
         )
     }
