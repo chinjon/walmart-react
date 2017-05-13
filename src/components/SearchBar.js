@@ -14,6 +14,7 @@ class SearchBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            advancedSearch: false,
             query: "",
             results: "",
             selectDropdown: ""
@@ -29,19 +30,18 @@ class SearchBar extends Component {
         const target = event.target;
         const name = target.name;
         this.setState({[name]: target.value});
-        console.log(this.state[name]);
+        console.log(`state set for ${name}`, this.state[name]);
 
-        if(this.state.query) {
+        if(target.value) {
             this.fetchWalmartSearch(this.state[name])
         }
         event.preventDefault();
     }
-    
+   
 
     setSearchResults(results) {
         this.setState({results})
         console.log("setSearchResults() called")
-        console.log(this.state.results)
     }
     componentDidMount(){
         // const {query} = this.state;
@@ -51,7 +51,6 @@ class SearchBar extends Component {
     fetchWalmartSearch(query) {
         fetch(`https://cors.now.sh/https://api.walmartlabs.com/v1/search?apiKey=${KEY}&query=${query}&format=json`)
             .then(response => response.json())
-            // .then(result => console.log(result));
             .then(result => this.setSearchResults(result.items));
     }
 
@@ -62,12 +61,12 @@ class SearchBar extends Component {
 
     renderDropDown(data) {
         return (
-            <datalist id="resultItems">
+            <datalist id="resultItems" value={this.state.selectDropdown}>
                 <span className="control">
-                    <select onChange={this.onInputChange.bind(this)} value={this.state.selectDropdown}>
+                    <select onChange={this.onInputChange.bind(this)}>
                         {
                             data.map((e,i)=>{
-                                return <option itemId={e.itemId} key={i} value={e.name}/>
+                                return <option data-itemId={e.itemId} key={i} value={e.name}/>
                             })
                         }
                     </select>
