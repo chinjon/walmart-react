@@ -72,7 +72,9 @@ class SearchBar extends Component {
     }
 
     setToLocalStorage(item){
-        localStorage.setItem("walmartStash", JSON.stringify(item))
+        const stashedItems = JSON.parse(localStorage.getItem("walmartStash"));
+        const newArr = stashedItems.concat(item);
+        localStorage.setItem("walmartStash", JSON.stringify(newArr));
     }
 
     grabSelectItemFromResults(data, userSelect) {

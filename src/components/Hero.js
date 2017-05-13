@@ -4,7 +4,7 @@ class Hero extends Component {
 
        render() {
         return (
-            <section className="hero is-info has-text-centered is-bold">
+            <section className="hero is-info has-text-centered is-bold is-medium">
                 <div className="hero-body">
                     <div className="container">
                         <h1 className="title">

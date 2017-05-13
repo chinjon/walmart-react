@@ -9,20 +9,20 @@ class StoredResults extends Component {
         }
     }
 
-
     componentDidMount() {
         if(localStorage.getItem("walmartStash")) {
             console.log("We found some stuff")
+            const stored = JSON.parse(localStorage.getItem("walmartStash"));
+            console.log(stored)
             this.setState({
-                data: JSON.parse(localStorage.getItem("walmartStash"))
+                data: stored
             });
 
-            console.log(this.state.data)
+            
         } else {
             console.log("This stash is empty")
         }
     }
-
 
     render(){
         const {data} = this.state;
@@ -32,7 +32,7 @@ class StoredResults extends Component {
                     {
                         data ? 
                         data.map((e,i)=>{
-                            return <li key={i}><span className="is-96x96"><img src={e.thumbnailImage} alt={e.name} /></span><a href={e.productUrl}>{e.name}</a><span className="icon is-medium"><i className="fa fa-external-link"></i></span></li>
+                            return <li key={i}><span className="image is-64x64"><img src={e.img} alt={e.name} /></span><a href={e.url}>{e.name}</a><span className="icon is-medium"><i className="fa fa-external-link"></i></span></li>
                         }) : null
                     }
                 </ul>
