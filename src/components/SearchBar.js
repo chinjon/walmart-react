@@ -24,8 +24,9 @@ class SearchBar extends Component {
         this.fetchWalmartSearch = this.fetchWalmartSearch.bind(this);
         this.setSearchResults = this.setSearchResults.bind(this);
         this.renderDropDown = this.renderDropDown.bind(this);
-        this.sendToLocalStorage = this.sendToLocalStorage.bind(this);
-        this.grabSelectItemFromArr = this.grabSelectItemFromArr.bind(this);
+        this.handleSendToLocalStorage = this.handleSendToLocalStorage.bind(this);
+        this.grabSelectItemFromArr = this.grabSelectItemFromResults.bind(this);
+        this.setToLocalStorage = this.setToLocalStorage.bind(this);
     }
 
     onInputChange = event => {
@@ -55,27 +56,26 @@ class SearchBar extends Component {
             this.setState({results: trimmedResults});
     }
 
-    componentDidMount(){
-        // const {query} = this.state;
-        // this.fetchWalmartSearch(query)
-    }
-
     fetchWalmartSearch(query) {
         fetch(`https://cors.now.sh/https://api.walmartlabs.com/v1/search?apiKey=${KEY}&query=${query}&format=json`)
             .then(response => response.json())
             .then(result => this.setSearchResults(result.items));
     }
 
-    sendToLocalStorage = event => {
+    handleSendToLocalStorage = event => {
         event.preventDefault();
         const {results, query} = this.state;
-        console.log("sendToLocalStorage() fired");
-        // console.log("this will save: ", query);
-        let storeItem = this.grabSelectItemFromArr(results, query);
+        console.log("handleSendToLocalStorage() fired");
+        let storeItem = this.grabSelectItemFromResults(results, query);
         console.log(storeItem);
+        this.setToLocalStorage(storeItem);
     }
 
-    grabSelectItemFromArr(data, userSelect) {
+    setToLocalStorage(item){
+        localStorage.setItem("walmartStash", JSON.stringify(item))
+    }
+
+    grabSelectItemFromResults(data, userSelect) {
         console.log(userSelect);
         let foundItem = data.filter((e)=>{
             return e.name === userSelect
@@ -131,7 +131,7 @@ class SearchBar extends Component {
                         </p>
                        </div>
                         
-                        <button className="control button is-primary" type="submit" onClick={this.sendToLocalStorage.bind(this)}>Save Item</button>               
+                        <button className="control button is-primary" type="submit" onClick={this.handleSendToLocalStorage.bind(this)}>Save Item</button>               
                     </div>
                     
                 </form>
