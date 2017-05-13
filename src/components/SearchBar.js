@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import Radium from 'radium';
-import {KEY} from './../hide';
+import {KEY} from './../hide.js';
 
 import SearchInput from './grandchildren/SearchInput';
 
