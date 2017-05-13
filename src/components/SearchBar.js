@@ -25,6 +25,7 @@ class SearchBar extends Component {
         this.setSearchResults = this.setSearchResults.bind(this);
         this.renderDropDown = this.renderDropDown.bind(this);
         this.sendToLocalStorage = this.sendToLocalStorage.bind(this);
+        this.grabSelectItemFromArr = this.grabSelectItemFromArr.bind(this);
     }
 
     onInputChange = event => {
@@ -67,15 +68,24 @@ class SearchBar extends Component {
 
     sendToLocalStorage = event => {
         event.preventDefault();
-        console.log("sendToLocalStorage() fired")
-        console.log("this will save: ", this.state.query);
+        const {results, query} = this.state;
+        console.log("sendToLocalStorage() fired");
+        // console.log("this will save: ", query);
+        this.grabSelectItemFromArr(results, query)
     }
 
     grabSelectItemFromArr(data, userSelect) {
+        console.log(userSelect);
+
         const selectedItem = data.map((e)=>{
             if(userSelect === e.name) {
+                console.log("matched")
+                console.log(e)
             }
+            return e
         })
+
+        console.log(selectedItem)
     }
 
     handleSubmit(e) {

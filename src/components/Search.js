@@ -1,5 +1,14 @@
 import React, {Component} from 'react'
 
+import Radium from 'radium';
+
+const style = {
+    base: {
+        margin: "4em 2.5em"
+    }
+}
+
+
 class Search extends Component {
 
     constructor(props) {
@@ -29,11 +38,11 @@ class Search extends Component {
 
     render(){
         return (
-            <div className="container">
+            <div className="container" style={style.base}>
                 {this.props.children}
             </div>
         )
     }
 }
 
-export default Search;
+export default Radium(Search);
