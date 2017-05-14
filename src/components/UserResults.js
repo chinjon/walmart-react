@@ -33,6 +33,8 @@ class StoredResults extends Component {
 
         this.renderTable = this.renderTable.bind(this);
         this.handleDeleteItem = this.handleDeleteItem.bind(this);
+        this.findItemToDelete = this.findItemToDelete.bind(this);
+        this.onDeleteBtnClick = this.onDeleteBtnClick.bind(this);
     }
 
     componentDidMount() {
@@ -48,9 +50,35 @@ class StoredResults extends Component {
         }
     }
 
+    onDeleteBtnClick = event => {
+        const itemId = event.target.value;
+        if(itemId) {
+            const parsedId = parseInt(itemId,10);
+               console.log(this.findItemToDelete(parsedId))
+        }
+    }
 
-    handleDeleteItem(){
+    findItemToDelete(item) {
+        const {data} = this.state;
+        const matchedItem = data.map(e=>{
+            if(e.itemId === item) {
+                return e
+            }
+            return e
+        })
+        return matchedItem
+    }
 
+
+    handleDeleteItem(item){
+        const {data} = this.state;
+        const newData = data.map((e)=>{
+            if(e.itemId !== item.itemId){
+                return e
+            }
+            return e
+        })
+        console.log(newData);
     }
 
     renderTable(data) {
@@ -76,7 +104,7 @@ class StoredResults extends Component {
                         data.map((e,i)=>{
                             return (
                                 
-                            <tr key={i} style={[style.fadeInUp, style.tableItem]}>
+                            <tr key={e.itemId} style={[style.fadeInUp, style.tableItem]}>
                                 <td>
                                     <span>
                                         <img style={style.itemImg} src={e.img} alt={e.name} className="is-pulled-left"/>
@@ -103,9 +131,9 @@ class StoredResults extends Component {
                                     <span>{Math.floor(e.reviews.rating)} <strong>({e.reviews.numReviews})</strong></span>
                                 </td>
                                 <td>
-                                    <button className="button is-danger is-outlined">
+                                    <button className="button is-danger is-outlined" value={e.itemId} onClick={this.onDeleteBtnClick}>
                                         <span className="icon is-small">
-                                        <i className="fa fa-trash"></i>
+                                            <i className="fa fa-trash"></i>
                                         </span>
                                     </button>
                                 </td>

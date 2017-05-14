@@ -49,6 +49,7 @@ class SearchBar extends Component {
         const trimmedResults = results.map((e)=>{
                 let newObj = {
                     name: e.name,
+                    itemId: e.itemId,
                     category: e.categoryPath,
                     img: e.thumbnailImage,
                     price: e.salePrice,
