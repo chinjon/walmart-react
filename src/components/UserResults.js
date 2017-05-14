@@ -56,20 +56,20 @@ class StoredResults extends Component {
         if(itemId) {
             const parsedId = parseInt(itemId,10);
             console.log(parsedId)
-            return this.findItemToDelete(parsedId)
+            return this.findItemToDelete(parsedId, this.getNewItemsArr)
         }
     }
 
-    findItemToDelete(item) {
+    findItemToDelete(item, callback) {
         const {data} = this.state;
         function findItem(dataArr) {
             return dataArr.itemId === item
         }  
-       return this.getNewItemsArr(data.find(findItem))
+       return callback(data.find(findItem))
     }
 
     updateLocalStorage(newArr) {
-
+        localStorage.setItem("walmartStash", JSON.stringify(newArr))
     }
 
     getNewItemsArr(item){
@@ -78,7 +78,7 @@ class StoredResults extends Component {
             return arr.itemId !== item.itemId
         }
         const filteredArr = data.filter(newArr);
-        console.log(filteredArr)
+        console.log("getNewItemsArr() fired ", filteredArr)
     }
 
     renderTable(data) {
