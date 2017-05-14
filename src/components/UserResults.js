@@ -32,9 +32,10 @@ class StoredResults extends Component {
         }
 
         this.renderTable = this.renderTable.bind(this);
-        this.handleDeleteItem = this.handleDeleteItem.bind(this);
+        this.getNewItemsArr = this.getNewItemsArr.bind(this);
         this.findItemToDelete = this.findItemToDelete.bind(this);
         this.onDeleteBtnClick = this.onDeleteBtnClick.bind(this);
+        this.updateLocalStorage = this.updateLocalStorage.bind(this);
     }
 
     componentDidMount() {
@@ -54,31 +55,30 @@ class StoredResults extends Component {
         const itemId = event.target.value;
         if(itemId) {
             const parsedId = parseInt(itemId,10);
-               console.log(this.findItemToDelete(parsedId))
+            console.log(parsedId)
+            return this.findItemToDelete(parsedId)
         }
     }
 
     findItemToDelete(item) {
         const {data} = this.state;
-        const matchedItem = data.map(e=>{
-            if(e.itemId === item) {
-                return e
-            }
-            return e
-        })
-        return matchedItem
+        function findItem(dataArr) {
+            return dataArr.itemId === item
+        }  
+       return this.getNewItemsArr(data.find(findItem))
     }
 
+    updateLocalStorage(newArr) {
 
-    handleDeleteItem(item){
+    }
+
+    getNewItemsArr(item){
         const {data} = this.state;
-        const newData = data.map((e)=>{
-            if(e.itemId !== item.itemId){
-                return e
-            }
-            return e
-        })
-        console.log(newData);
+        function newArr(arr) {
+            return arr.itemId !== item.itemId
+        }
+        const filteredArr = data.filter(newArr);
+        console.log(filteredArr)
     }
 
     renderTable(data) {
