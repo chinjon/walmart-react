@@ -88,7 +88,6 @@ class SearchBar extends Component {
         } else {
             localStorage.setItem("walmartStash", JSON.stringify(item))
         }
-        
     }
 
     grabSelectItemFromResults(data, userSelect) {

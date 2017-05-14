@@ -56,8 +56,14 @@ class StoredResults extends Component {
         if(itemId) {
             const parsedId = parseInt(itemId,10);
             console.log(parsedId)
-            return this.findItemToDelete(parsedId, this.getNewItemsArr)
+            this.updateLocalStorage(this.findItemToDelete(parsedId, this.getNewItemsArr))
+        } else {
+            console.log("No itemId detected from action")
         }
+
+        this.setState({
+            data: JSON.parse(localStorage.getItem("walmartStash"))
+        })
     }
 
     findItemToDelete(item, callback) {
@@ -69,7 +75,11 @@ class StoredResults extends Component {
     }
 
     updateLocalStorage(newArr) {
-        localStorage.setItem("walmartStash", JSON.stringify(newArr))
+       if(typeof newArr === "object") {
+           localStorage.setItem("walmartStash", JSON.stringify(newArr))
+       } else {
+           console.log("Incorrect data type")
+       }
     }
 
     getNewItemsArr(item){
@@ -77,8 +87,7 @@ class StoredResults extends Component {
         function newArr(arr) {
             return arr.itemId !== item.itemId
         }
-        const filteredArr = data.filter(newArr);
-        console.log("getNewItemsArr() fired ", filteredArr)
+        return data.filter(newArr);
     }
 
     renderTable(data) {
@@ -148,10 +157,6 @@ class StoredResults extends Component {
             </table>
 
         )
-    }
-
-    componentDidUpdate(){
-
     }
 
     render(){
