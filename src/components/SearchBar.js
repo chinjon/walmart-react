@@ -3,6 +3,7 @@ import Radium from 'radium';
 import {KEY} from './../hide.js';
 
 import SearchInput from './grandchildren/SearchInput';
+import SelectInput from './grandchildren/SelectInput';
 
 const style = {
     searchBar:{
@@ -156,12 +157,33 @@ class SearchBar extends Component {
                             }
                             </p>
                         </div>
-                       <div className="field">
-                       <p className="control is-expanded">
-                            <SearchInput />
-                        </p>
+                        <div className="field">
+                            <p className="control is-expanded">
+                                <SearchInput 
+                                    placeholder="Results"
+                                    type="number"
+                                    min="0"
+                                    max="30"
+                                    name="results"
+                                />
+                            </p>
                        </div>
-                        
+                       <div className="field">
+                            <p className="control is-expanded">
+                                <SearchInput 
+                                placeholder="Start At"
+                                type="number"
+                                min="0"
+                                max="30"
+                                name="startAt"
+                            />
+                            </p>
+                       </div>
+                       <div className="field">
+                            <p className="control is-expanded">
+                                <SelectInput />
+                            </p>
+                       </div> 
                         <button className="control button is-primary" type="submit" onClick={this.handleSendToLocalStorage.bind(this)}>Save Item</button>               
                     </div>
                     
