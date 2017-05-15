@@ -10,7 +10,16 @@
 1. `clone` repo to desktop  
 2. Open terminal and `cd` into `walmart-react`  
 3. In terminal, run `yarn install` or `npm install` to download dependencies  
-4. Run `yarn start` and application will be running in `localhost: 3000`
+4. **IMPORTANT** Make sure an **API KEY** is obtained!
+    - Must have a `hide.js` file placed in the root of the `src` folder.  
+    - Key can be obtained from Walmart (for FREE) or contact me.  
+    - Inside `hide.js` have key stored in `module.exports` object like so:  
+        ```
+        module.exports = {
+            KEY: 'API_KEY_HERE'
+        }
+        ```
+5. Run `yarn start` and application will be running in `localhost: 3000`
 
 ## :book: General Info :book:  
 
