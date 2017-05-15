@@ -30,6 +30,7 @@ class SearchBar extends Component {
         this.handleSendToLocalStorage = this.handleSendToLocalStorage.bind(this);
         this.grabSelectItemFromArr = this.grabSelectItemFromResults.bind(this);
         this.setToLocalStorage = this.setToLocalStorage.bind(this);
+        this.checkIfAddedAlready = this.checkIfAddedAlready.bind(this);
     }
 
     onInputChange = event => {
@@ -44,7 +45,6 @@ class SearchBar extends Component {
         event.preventDefault();
     }
    
-
     setSearchResults(results) {
         const trimmedResults = results.map((e)=>{
                 let newObj = {
@@ -91,10 +91,21 @@ class SearchBar extends Component {
         }
     }
 
+    checkIfAddedAlready(item) {
+        const localStorageArr = JSON.parse(localStorage.getItem("walmartStash"));
+        
+        localStorageArr.forEach(e=>{
+            if(e.itemId === item.itemId){
+                break;
+            }
+        })
+        return item
+    }
+
     grabSelectItemFromResults(data, userSelect) {
         console.log(userSelect);
         let foundItem = data.filter((e)=>{
-            return e.name === userSelect
+            return e.name === userSelect;
         })
         return foundItem
     }

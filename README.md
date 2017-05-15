@@ -5,21 +5,21 @@
 [Heroku Link](https://walmart-react.herokuapp.com/)  
 [Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
 
-## General Info  
+## :book: General Info :book:  
 
 An application that utilizes the Walmart Search API to pull in the store's product database.  
 
-#### Technologies  
+#### :floppy_disk: Technologies :floppy_disk:  
 
-- Bulma CSS  
+- [Bulma CSS](http://bulma.io/)  
 - React JS  
     - Radium  
     - React Animations  
-- Walmart Search API  
+- [Walmart Search API](https://developer.walmartlabs.com/docs/read/Search_API)  
 
-## The App  
+## :key: The App :key:  
 
-## Planning  
+## :pencil: Planning :pencil:  
 
 ## Functionality  
 
