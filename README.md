@@ -9,7 +9,13 @@
 
 An application that utilizes the Walmart Search API to pull in the store's product database.  
 
-### Technologies  
+#### Technologies  
+
+- Bulma CSS  
+- React JS  
+    - Radium  
+    - React Animations  
+- Walmart Search API  
 
 ## The App  
 

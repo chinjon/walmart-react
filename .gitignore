@@ -2,7 +2,7 @@
 
 /server/routes/hide.js
 /src/hide.js
-/tests/fetch.js
+/playground/fetch.js
 
 # dependencies
 /node_modules
