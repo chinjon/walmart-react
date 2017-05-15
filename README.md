@@ -1,4 +1,4 @@
-# Walmart React App  
+# :department_store: Walmart React App :department_store:  
 
 
 ### :zap: Links :zap:  
@@ -21,8 +21,10 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 
 ## :pencil: Planning :pencil:  
 
-## Functionality  
+[Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)  
 
-## Short Comings  
+## :checkered_flag: Functionality :checkered_flag:  
 
-## To-Do's  
+## :pensive: Short Comings :pensive:  
+
+## :white_check_mark: To-Do's :white_check_mark:  

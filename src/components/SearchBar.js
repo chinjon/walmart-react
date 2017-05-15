@@ -84,22 +84,25 @@ class SearchBar extends Component {
     setToLocalStorage(item){
         const stashedItems = JSON.parse(localStorage.getItem("walmartStash"));
         if(stashedItems) {
-            const newArr = stashedItems.concat(item);
+            if(this.checkIfAddedAlready(item)) {
+                const newArr = stashedItems.concat(item);
             localStorage.setItem("walmartStash", JSON.stringify(newArr));
+            } else {
+                console.log('Item already exists');
+            }
         } else {
             localStorage.setItem("walmartStash", JSON.stringify(item))
         }
     }
 
+
     checkIfAddedAlready(item) {
         const localStorageArr = JSON.parse(localStorage.getItem("walmartStash"));
-        
-        localStorageArr.forEach(e=>{
-            if(e.itemId === item.itemId){
-                break;
-            }
-        })
-        return item
+
+        function checkArr(arrItem,i, arr) {
+            return arrItem.itemId === item.itemId
+        }
+        return localStorageArr.some(checkArr)
     }
 
     grabSelectItemFromResults(data, userSelect) {
@@ -107,7 +110,7 @@ class SearchBar extends Component {
         let foundItem = data.filter((e)=>{
             return e.name === userSelect;
         })
-        return foundItem
+        return foundItem;
     }
 
     handleSubmit(e) {
