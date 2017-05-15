@@ -52,6 +52,7 @@ class SearchBar extends Component {
                     itemId: e.itemId,
                     category: e.categoryPath,
                     img: e.thumbnailImage,
+                    upc: e.upc,
                     price: e.salePrice,
                     msrp: e.msrp || 0,
                     reviews: {
