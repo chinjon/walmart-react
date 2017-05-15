@@ -196,7 +196,7 @@ class StoredResults extends Component {
                                     {`$${e.msrp.toFixed(2)}`}
                                 </td>
                                 <td>
-                                    <span>{Math.floor(e.reviews.rating)} <strong>({e.reviews.numReviews})</strong></span>
+                                    <span>{Math.floor(e.reviews.rating)} <i className="fa fa-star"></i><strong><small>({e.reviews.numReviews})</small></strong></span>
                                 </td>
                                 <td>
                                     <button className="button is-danger is-outlined" value={e.itemId} onClick={this.onDeleteBtnClick}>
