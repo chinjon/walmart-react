@@ -11,7 +11,7 @@ class Hero extends Component {
                             Walmart Stash
                         </h1>
                         <h2 className="subtitle">
-                            Keep Your Walmart Wishlist "Private"
+                            Powered By React JS and Walmart's Search API
                         </h2>
                     </div>
                 </div>

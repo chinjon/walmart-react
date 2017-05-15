@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 import { fadeInUp } from 'react-animations';
+
+import SearchInput from './grandchildren/SearchInput';
+
 import Radium, {StyleRoot} from "radium";
 
 const style = {
@@ -31,6 +34,7 @@ class StoredResults extends Component {
             data: "",
             isSorted: false,
             sortOrder: 0,
+            searchUserStorage: ""
         }
 
         this.renderTable = this.renderTable.bind(this);
@@ -41,6 +45,7 @@ class StoredResults extends Component {
         this.sortUserArrResults = this.sortUserArrResults.bind(this);
         this.sortFunction = this.sortFunction.bind(this);
         this.handleSortClick = this.handleSortClick.bind(this);
+        this.handleUserStorageSearch = this.handleUserStorageSearch.bind(this);
     }
 
     componentDidMount() {
@@ -133,6 +138,10 @@ class StoredResults extends Component {
         }
     }
 
+    handleUserStorageSearch(event){
+        console.log(event.target.value);
+    }
+
     getNewItemsArr(item){
         const {data} = this.state;
         function newArr(arr) {
@@ -220,6 +229,24 @@ class StoredResults extends Component {
         const {data} = this.state;
         return(
             <div style={style.table}>
+                <div className="columns">
+                    <div className="column is-3">
+                        <div className="field">
+                            <p className="control has-icons-left">
+                                <SearchInput 
+                                    placeholder="Search Products"
+                                    onChange={this.handleUserStorageSearch}
+                                />
+                                <span className="icon is-small is-left">
+                                    <i className="fa fa-search"></i>
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="column is-3 is-offset-2">
+                        <p><em>4 of 4 products</em></p>
+                    </div>
+                </div>
                 <StyleRoot>
                     {
                         this.renderTable(data)
