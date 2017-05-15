@@ -109,21 +109,25 @@ class StoredResults extends Component {
         if(!isSorted) {
             if(sortOrder === 0 || sortOrder === -1) {
                 this.setState({
-                    data: this.sortUserArrResults(data)
+                    data: this.sortUserArrResults(data),
+                    sortOrder: 1
                 })
             } else {
                 this.setState({
-                    data: this.sortUserArrResults(data).reverse()
+                    data: this.sortUserArrResults(data).reverse(),
+                    sortOrder: -1
                 })
             }
         } else {
             if(!sortOrder) {
                 this.setState({
-                    data: this.sortUserArrResults(data)
+                    data: this.sortUserArrResults(data),
+                    sortOrder: 1
                 })
             } else {
                 this.setState({
-                    data: this.sortUserArrResults(data).reverse()
+                    data: this.sortUserArrResults(data).reverse(),
+                    sortOrder: -1
                 })
             }
         }
