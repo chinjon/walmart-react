@@ -6,7 +6,7 @@ import SearchInput from './grandchildren/SearchInput';
 
 const style = {
     searchBar:{
-        marginTop: "5em",
+        marginTop: "1em",
         border: "solid #000 1px",
         padding: "3em",
         borderRadius: "10px",
@@ -20,7 +20,8 @@ class SearchBar extends Component {
             advancedSearch: false,
             query: "",
             results: "",
-            selectDropdown: ""
+            selectDropdown: "",
+            advancedSearchOptions: false,
         }
         this.onInputChange = this.onInputChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);

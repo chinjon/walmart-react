@@ -28,7 +28,9 @@ class StoredResults extends Component {
         super(props);
 
         this.state ={
-            data: ""
+            data: "",
+            isSorted: false,
+            sortOrder: 0,
         }
 
         this.renderTable = this.renderTable.bind(this);
@@ -36,6 +38,9 @@ class StoredResults extends Component {
         this.findItemToDelete = this.findItemToDelete.bind(this);
         this.onDeleteBtnClick = this.onDeleteBtnClick.bind(this);
         this.updateLocalStorage = this.updateLocalStorage.bind(this);
+        this.sortUserArrResults = this.sortUserArrResults.bind(this);
+        this.sortFunction = this.sortFunction.bind(this);
+        this.handleSortClick = this.handleSortClick.bind(this);
     }
 
     componentDidMount() {
@@ -82,6 +87,27 @@ class StoredResults extends Component {
        }
     }
 
+    sortFunction = (a,b) => {
+            const itemA = a.name.toUpperCase();
+            const itemB = b.name.toUpperCase();
+
+            let comparison = 0;
+            if(itemA > itemB) {
+                comparison = 1
+            } else if (itemA < itemB) {
+                comparison = -1
+            }
+            return comparison
+    }
+
+    sortUserArrResults(data) {
+       return data.sort(this.sortFunction);
+    }
+
+    handleSortClick = event =>{
+
+    }
+
     getNewItemsArr(item){
         const {data} = this.state;
         function newArr(arr) {
@@ -93,11 +119,19 @@ class StoredResults extends Component {
     renderTable(data) {
         return (
                                             
-            <table className="table has-text-centered" >
+            <table className="table has-text-centered is-bordered is-striped" >
 
                 <thead>
                     <tr>
-                        <th>Product</th>
+                        <th>
+                            Product 
+                            <button 
+                                className="button is-pulled-right is-small"
+                            onClick={this.handleSortClick}
+                            >
+                                <i className="fa fa-arrow-down"></i>
+                            </button>
+                        </th>
                         <th>Category</th>
                         <th>Price</th>
                         <th>MSRP</th>

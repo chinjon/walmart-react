@@ -39,6 +39,7 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 ## :pencil: Planning :pencil:  
 
 [Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)  
+[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
 
 ## :checkered_flag: Functionality :checkered_flag:  
 
@@ -47,4 +48,4 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 ## :white_check_mark: To-Do's :white_check_mark:  
 
 ##### **REFACTORING**  
-As always code, could be much shorter. There are a few sections where functional programming and higher-order-function can cut down on the amount of code.
+As always, code could be much shorter. There are a few sections in the application where functional programming and higher-order-functions can cut down on the amount of code.

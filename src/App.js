@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Hero from './components/Hero';
+import Footer from './components/Footer';
 import Search from './components/Search';
 import SearchBar from './components/SearchBar';
 import UserResults from './components/UserResults';
@@ -31,6 +32,7 @@ class App extends Component {
           <SearchBar/>
           <UserResults />
         </Search>
+        <Footer />
       </div>
     );
   }

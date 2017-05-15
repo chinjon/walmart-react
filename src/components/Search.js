@@ -41,10 +41,10 @@ class Search extends Component {
         return (
             <div className="container">
                 <div className="columns" style={style.base}>
-            <div className="column">
-                {this.props.children}
-            </div>
-            </div>
+                    <div className="column">
+                        {this.props.children}
+                    </div>
+                </div>
             </div>
         )
     }
