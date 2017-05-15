@@ -3,7 +3,7 @@ import Radium from 'radium';
 import {KEY} from './../hide.js';
 
 import SearchInput from './grandchildren/SearchInput';
-import SelectInput from './grandchildren/SelectInput';
+// import SelectInput from './grandchildren/SelectInput';
 
 const style = {
     searchBar:{
@@ -18,10 +18,10 @@ class SearchBar extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            advancedSearch: false,
+            advancedSearch: true,
             query: "",
             results: "",
-            selectDropdown: "",
+            sortBy: "relevance",
             advancedSearchOptions: false,
         }
         this.onInputChange = this.onInputChange.bind(this);
@@ -33,7 +33,10 @@ class SearchBar extends Component {
         this.grabSelectItemFromArr = this.grabSelectItemFromResults.bind(this);
         this.setToLocalStorage = this.setToLocalStorage.bind(this);
         this.checkIfAddedAlready = this.checkIfAddedAlready.bind(this);
+        // this.renderAdvancedSearch = this.renderAdvancedSearch.bind(this);
+        // this.onAdvancedClick = this.onAdvancedClick.bind(this);
     }
+
 
     onInputChange = event => {
         const target = event.target;
@@ -52,6 +55,7 @@ class SearchBar extends Component {
                 let newObj = {
                     name: e.name,
                     itemId: e.itemId,
+                    brandName: "",
                     category: e.categoryPath,
                     img: e.thumbnailImage,
                     upc: e.upc,
@@ -82,6 +86,11 @@ class SearchBar extends Component {
         console.log(storeItem);
         this.setToLocalStorage(storeItem);
     }
+
+    // onAdvancedClick(event){
+    //     this.setState =({sortBy: !this.state.sortBy})
+    //     console.log(this.state.sortBy)
+    // }
 
     setToLocalStorage(item){
         const stashedItems = JSON.parse(localStorage.getItem("walmartStash"));
@@ -114,6 +123,43 @@ class SearchBar extends Component {
         })
         return foundItem;
     }
+
+    // renderAdvancedSearch() {
+    //     return (
+    //     <span className="field-body">
+    //         <div className="field">
+    //             <p className="control is-expanded">
+    //                 <SearchInput 
+    //                     placeholder="Results"
+    //                     type="number"
+    //                     min="0"
+    //                     max="30"
+    //                     name="results"
+    //                 />
+    //             </p>
+    //         </div>
+    //         <div className="field">
+    //                 <p className="control is-expanded">
+    //                     <SearchInput 
+    //                     placeholder="Start At"
+    //                     type="number"
+    //                     min="0"
+    //                     max="30"
+    //                     name="startAt"
+    //                 />
+    //                 </p>
+    //         </div>
+    //         <div className="field">
+    //                 <p className="control is-expanded">
+    //                     <SelectInput 
+    //                         value={this.state.sortBy}
+    //                         onChange={this.onAdvancedClick}
+    //                     />
+    //                 </p>
+    //         </div>
+    //     </span>
+    //     )
+    // }
 
     handleSubmit(e) {
         e.preventDefault();
@@ -157,36 +203,14 @@ class SearchBar extends Component {
                             }
                             </p>
                         </div>
-                        <div className="field">
-                            <p className="control is-expanded">
-                                <SearchInput 
-                                    placeholder="Results"
-                                    type="number"
-                                    min="0"
-                                    max="30"
-                                    name="results"
-                                />
-                            </p>
-                       </div>
-                       <div className="field">
-                            <p className="control is-expanded">
-                                <SearchInput 
-                                placeholder="Start At"
-                                type="number"
-                                min="0"
-                                max="30"
-                                name="startAt"
-                            />
-                            </p>
-                       </div>
-                       <div className="field">
-                            <p className="control is-expanded">
-                                <SelectInput />
-                            </p>
-                       </div> 
-                        <button className="control button is-primary" type="submit" onClick={this.handleSendToLocalStorage.bind(this)}>Save Item</button>               
-                    </div>
-                    
+                            <button 
+                                className="control button is-primary" 
+                                type="submit" 
+                                onClick={this.handleSendToLocalStorage.bind(this)}
+                            >
+                                Save Item
+                            </button>               
+                        </div>
                 </form>
 
 
@@ -194,5 +218,7 @@ class SearchBar extends Component {
         )
     }
 }
+
+
 
 export default Radium(SearchBar);

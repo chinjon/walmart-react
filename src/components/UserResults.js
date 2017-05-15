@@ -142,10 +142,8 @@ class StoredResults extends Component {
     }
 
     renderTable(data) {
-        return (
-                                            
+        return (                                          
             <table className="table has-text-centered is-bordered is-striped" >
-
                 <thead>
                     <tr>
                         <th>
