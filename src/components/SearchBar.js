@@ -85,7 +85,7 @@ class SearchBar extends Component {
     setToLocalStorage(item){
         const stashedItems = JSON.parse(localStorage.getItem("walmartStash"));
         if(stashedItems) {
-            if(this.checkIfAddedAlready(item)) {
+            if(!this.checkIfAddedAlready(item)) {
                 const newArr = stashedItems.concat(item);
             localStorage.setItem("walmartStash", JSON.stringify(newArr));
             } else {

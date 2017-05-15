@@ -105,7 +105,28 @@ class StoredResults extends Component {
     }
 
     handleSortClick = event =>{
-
+        const {isSorted, data, sortOrder} = this.state;
+        if(!isSorted) {
+            if(sortOrder === 0 || sortOrder === -1) {
+                this.setState({
+                    data: this.sortUserArrResults(data)
+                })
+            } else {
+                this.setState({
+                    data: this.sortUserArrResults(data).reverse()
+                })
+            }
+        } else {
+            if(!sortOrder) {
+                this.setState({
+                    data: this.sortUserArrResults(data)
+                })
+            } else {
+                this.setState({
+                    data: this.sortUserArrResults(data).reverse()
+                })
+            }
+        }
     }
 
     getNewItemsArr(item){
