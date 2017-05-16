@@ -235,14 +235,15 @@ class StoredResults extends Component {
     }
 
     saveEditedBrandNameBtn=event=>{
-        const {data, editTDUpc} = this.state;
+        const {data, editTDUpc, brandName} = this.state;
 
         function matchingUpc(item) {
             return item.upc === editTDUpc
         }
         
         console.log("save button firing")
-        console.log(data.find(matchingUpc))
+        const updatingItemIndex = data.findIndex(matchingUpc)
+        console.log(data[updatingItemIndex][brandName])
         // console.log("brandName val: ", this.state.brandName)
         // console.log("editTDUpc val:", this.state.editTDUpc)
         this.setState({
