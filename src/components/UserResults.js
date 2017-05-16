@@ -42,6 +42,7 @@ class StoredResults extends Component {
             searchUserStorage: "",
             editing: false,
             editTD: null,
+            brandName: "",
         }
 
         this.renderTable = this.renderTable.bind(this);
@@ -58,6 +59,7 @@ class StoredResults extends Component {
         this.renderEditTableData = this.renderEditTableData.bind(this);
         this.saveEditedBrandNameBtn = this.saveEditedBrandNameBtn.bind(this);
         this.upcApiCall = this.upcApiCall.bind(this);
+        this.onChangeInputNewBrandName = this.onChangeInputNewBrandName.bind(this);
     }
 
     componentDidMount() {
@@ -179,7 +181,11 @@ class StoredResults extends Component {
     renderEditTableData() {
         return (
             <span>
-                <input />
+                <input 
+                    type="text"
+                    value={this.state.brandName}
+                    onChange={this.onChangeInputNewBrandName.bind(this)}
+                />
                 <button 
                     className="button"
                     onClick={this.saveEditedBrandNameBtn}
@@ -220,6 +226,12 @@ class StoredResults extends Component {
                 editTD: val
             })
         } 
+    }
+
+    onChangeInputNewBrandName(event) {
+        this.setState({
+            brandName: event.target.value
+        })
     }
 
     saveEditedBrandNameBtn=event=>{

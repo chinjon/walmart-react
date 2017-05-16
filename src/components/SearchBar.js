@@ -97,12 +97,14 @@ class SearchBar extends Component {
         if(stashedItems) {
             if(!this.checkIfAddedAlready(item)) {
                 const newArr = stashedItems.concat(item);
-            localStorage.setItem("walmartStash", JSON.stringify(newArr));
+                localStorage.setItem("walmartStash", JSON.stringify(newArr));
+                alert(`Item stored!`)
             } else {
-                console.log('Item already exists');
+                alert('Item already exists!');
             }
         } else {
             localStorage.setItem("walmartStash", JSON.stringify(item))
+            alert(`Item stored!`)
         }
     }
 
