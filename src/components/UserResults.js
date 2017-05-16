@@ -23,6 +23,11 @@ const style = {
     },
     tableItem: {
         padding: "5em"
+    },
+    externalBtn: {
+        marginLeft: "1em",
+        clear: "right",
+        display: "inline-block"
     }
 }
 
@@ -34,7 +39,8 @@ class StoredResults extends Component {
             data: "",
             isSorted: false,
             sortOrder: 0,
-            searchUserStorage: ""
+            searchUserStorage: "",
+            editing: false
         }
 
         this.renderTable = this.renderTable.bind(this);
@@ -46,6 +52,8 @@ class StoredResults extends Component {
         this.sortFunction = this.sortFunction.bind(this);
         this.handleSortClick = this.handleSortClick.bind(this);
         this.handleUserStorageSearch = this.handleUserStorageSearch.bind(this);
+        this.renderEditableTexBox = this.renderEditableTexBox.bind(this);
+        this.onBrandNameCellClick = this.onBrandNameCellClick.bind(this);
     }
 
     componentDidMount() {
@@ -142,15 +150,11 @@ class StoredResults extends Component {
         event.preventDefault()
         const userSearch = event.target.value
         const localStoreArr = JSON.parse(localStorage.getItem("walmartStash"));
-        console.log(localStoreArr)
-        console.log(userSearch);
         if(!userSearch) {
-            console.log("conditional firing")
             this.setState ({
                 data: localStoreArr
             })
         } else {
-            console.log("else firing")
             function filterSearch(item) {
                 return item.name.slice(0, userSearch.length).toLowerCase() === userSearch.toLowerCase()
             }
@@ -170,6 +174,23 @@ class StoredResults extends Component {
         return data.filter(newArr);
     }
 
+    renderEditableTexBox() {
+        return (
+            <span>
+                <input 
+                    placeholder=""
+                />
+                <button>
+                    Save
+                </button>
+            </span>
+        )
+    }
+
+    onBrandNameCellClick=(value) => {
+        console.log(value)
+    }
+
     renderTable(data) {
         return (                                          
             <table className="table has-text-centered is-bordered is-striped" >
@@ -184,6 +205,7 @@ class StoredResults extends Component {
                                 <i className="fa fa-arrow-down"></i>
                             </button>
                         </th>
+                        <th>Brand Name</th>
                         <th>Category</th>
                         <th>Price</th>
                         <th>MSRP</th>
@@ -193,7 +215,6 @@ class StoredResults extends Component {
                 </thead>
                 
                 <tbody>
-
                     {
                         data ?
                         data.map((e,i)=>{
@@ -205,14 +226,24 @@ class StoredResults extends Component {
                                         <img style={style.itemImg} src={e.img} alt={e.name} className="is-pulled-left"/>
                                         {e.name}
                                     </span>
-                                    <button className="button is-pulled-right is-outlined ">
-                                        <a href={e.url} target="_blank">
+                                        <a href={e.url} style={style.externalBtn} className="button is-pulled-right is-outlined" target="_blank">
                                         <span className="icon is-small">
-                                            <i className="fa fa-external-link" aria-hidden="true"></i>
+                                            <i className="fa fa-external-link is-dark"></i>
                                         </span>
                                         </a>
-                                    </button>
                                 </td>
+
+
+
+                                <td 
+                                    key={e.itemId} 
+                                    onClick={()=>this.onBrandNameCellClick(e.itemId)}
+                                >
+                                    {e.brandName}
+                                </td>
+
+
+
                                 <td>
                                     {e.category}
                                 </td>
