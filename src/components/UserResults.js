@@ -41,7 +41,7 @@ class StoredResults extends Component {
             sortOrder: 0,
             searchUserStorage: "",
             editing: false,
-            editTD: null,
+            editTDUpc: null,
             brandName: "",
         }
 
@@ -223,7 +223,7 @@ class StoredResults extends Component {
         if(this.state.editing === false) {
             this.setState({
                 editing: true,
-                editTD: val
+                editTDUpc: val
             })
         } 
     }
@@ -235,10 +235,19 @@ class StoredResults extends Component {
     }
 
     saveEditedBrandNameBtn=event=>{
+        const {data, editTDUpc} = this.state;
 
+        function matchingUpc(item) {
+            return item.upc === editTDUpc
+        }
+        
+        console.log("save button firing")
+        console.log(data.find(matchingUpc))
+        // console.log("brandName val: ", this.state.brandName)
+        // console.log("editTDUpc val:", this.state.editTDUpc)
         this.setState({
             editing: false,
-            editTD: null,
+            editTDUpc: null,
             brandName: ""
         })
     }
@@ -292,7 +301,7 @@ class StoredResults extends Component {
                                     onClick={()=>this.onBrandNameCellClick(e.upc)}
                                 >   
                                    {
-                                       this.state.editing && this.state.editTD === e.upc 
+                                       this.state.editing && this.state.editTDUpc === e.upc 
                                        ? 
                                      this.renderEditTableData()
                                        : 
