@@ -40,7 +40,8 @@ class StoredResults extends Component {
             isSorted: false,
             sortOrder: 0,
             searchUserStorage: "",
-            editing: false
+            editing: false,
+            editTD: null,
         }
 
         this.renderTable = this.renderTable.bind(this);
@@ -52,8 +53,10 @@ class StoredResults extends Component {
         this.sortFunction = this.sortFunction.bind(this);
         this.handleSortClick = this.handleSortClick.bind(this);
         this.handleUserStorageSearch = this.handleUserStorageSearch.bind(this);
-        this.renderEditableTexBox = this.renderEditableTexBox.bind(this);
         this.onBrandNameCellClick = this.onBrandNameCellClick.bind(this);
+        this.renderRegularTableData = this.renderRegularTableData.bind(this);
+        this.renderEditTableData = this.renderEditTableData.bind(this);
+        this.saveEditedBrandNameBtn = this.saveEditedBrandNameBtn.bind(this);
     }
 
     componentDidMount() {
@@ -166,6 +169,26 @@ class StoredResults extends Component {
         }
     }
 
+    renderRegularTableData(){
+        return (
+            <p></p>
+        )
+    }
+
+    renderEditTableData() {
+        return (
+            <span>
+                <input />
+                <button 
+                    className="button"
+                    onClick={this.saveEditedBrandNameBtn}
+                >
+                    Save
+                </button>
+            </span>
+        )
+    }
+
     getNewItemsArr(item){
         const {data} = this.state;
         function newArr(arr) {
@@ -174,21 +197,23 @@ class StoredResults extends Component {
         return data.filter(newArr);
     }
 
-    renderEditableTexBox() {
-        return (
-            <span>
-                <input 
-                    placeholder=""
-                />
-                <button>
-                    Save
-                </button>
-            </span>
-        )
+    onBrandNameCellClick=(val) => {
+         // console.log(val)
+        if(this.state.editing === false) {
+            this.setState({
+                editing: true,
+                editTD: val
+            })
+            console.log(this.state.editTD)
+        } 
     }
 
-    onBrandNameCellClick=(value) => {
-        console.log(value)
+    saveEditedBrandNameBtn=event=>{
+
+        this.setState({
+            editing: false,
+            editTD: null
+        })
     }
 
     renderTable(data) {
@@ -238,8 +263,16 @@ class StoredResults extends Component {
                                 <td 
                                     key={e.itemId} 
                                     onClick={()=>this.onBrandNameCellClick(e.itemId)}
-                                >
-                                    {e.brandName}
+                                >   
+                                   {
+                                       this.state.editing && this.state.editTD === e.itemId 
+                                       ? 
+                                     this.renderEditTableData()
+                                       : 
+                                      
+                                        this.renderRegularTableData()
+                                   }
+                                   
                                 </td>
 
 
