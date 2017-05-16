@@ -57,6 +57,7 @@ class StoredResults extends Component {
         this.renderRegularTableData = this.renderRegularTableData.bind(this);
         this.renderEditTableData = this.renderEditTableData.bind(this);
         this.saveEditedBrandNameBtn = this.saveEditedBrandNameBtn.bind(this);
+        this.upcApiCall = this.upcApiCall.bind(this);
     }
 
     componentDidMount() {
@@ -189,6 +190,20 @@ class StoredResults extends Component {
         )
     }
 
+    upcApiCall(itemUPC) {
+        const url = `https://cors.now.sh/https://api.upcitemdb.com/prod/trial/lookup?upc=${itemUPC}`
+        fetch(url,{ 
+                method: "GET", 
+                mode: "no-cors", 
+                headers: {
+                    "Accept": "application/json"
+                }
+        })
+        .then(response => response.json())
+        .then(result => this.setState({brandName: result.items[0].brand}))
+        .catch(err =>console.log(err))
+    }
+
     getNewItemsArr(item){
         const {data} = this.state;
         function newArr(arr) {
@@ -198,13 +213,12 @@ class StoredResults extends Component {
     }
 
     onBrandNameCellClick=(val) => {
-         // console.log(val)
+        console.log(val)
         if(this.state.editing === false) {
             this.setState({
                 editing: true,
                 editTD: val
             })
-            console.log(this.state.editTD)
         } 
     }
 
@@ -212,7 +226,8 @@ class StoredResults extends Component {
 
         this.setState({
             editing: false,
-            editTD: null
+            editTD: null,
+            brandName: ""
         })
     }
 
@@ -261,11 +276,11 @@ class StoredResults extends Component {
 
 
                                 <td 
-                                    key={e.itemId} 
-                                    onClick={()=>this.onBrandNameCellClick(e.itemId)}
+                                    key={e.upc} 
+                                    onClick={()=>this.onBrandNameCellClick(e.upc)}
                                 >   
                                    {
-                                       this.state.editing && this.state.editTD === e.itemId 
+                                       this.state.editing && this.state.editTD === e.upc 
                                        ? 
                                      this.renderEditTableData()
                                        : 
