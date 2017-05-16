@@ -138,8 +138,28 @@ class StoredResults extends Component {
         }
     }
 
-    handleUserStorageSearch(event){
-        console.log(event.target.value);
+     handleUserStorageSearch(event){
+        event.preventDefault()
+        const userSearch = event.target.value
+        const localStoreArr = JSON.parse(localStorage.getItem("walmartStash"));
+        console.log(localStoreArr)
+        console.log(userSearch);
+        if(!userSearch) {
+            console.log("conditional firing")
+            this.setState ({
+                data: localStoreArr
+            })
+        } else {
+            console.log("else firing")
+            function filterSearch(item) {
+                return item.name.slice(0, userSearch.length).toLowerCase() === userSearch.toLowerCase()
+            }
+
+              this.setState ({
+                data: [localStoreArr.find(filterSearch)]
+              })
+
+        }
     }
 
     getNewItemsArr(item){
@@ -244,7 +264,7 @@ class StoredResults extends Component {
                         </div>
                     </div>
                     <div className="column is-3 is-offset-2">
-                        <p><em>4 of 4 products</em></p>
+                        <p><em>{this.state.data.length} of {this.state.data.length} products</em></p>
                     </div>
                 </div>
                 <StyleRoot>
