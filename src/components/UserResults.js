@@ -156,7 +156,7 @@ class StoredResults extends Component {
             }
 
               this.setState ({
-                data: [localStoreArr.find(filterSearch)]
+                data: localStoreArr.filter(filterSearch)
               })
 
         }
@@ -264,7 +264,7 @@ class StoredResults extends Component {
                         </div>
                     </div>
                     <div className="column is-3 is-offset-2">
-                        <p><em>{this.state.data.length} of {this.state.data.length} products</em></p>
+                        <p><em>{this.state.data.length} of {JSON.parse(localStorage.getItem("walmartStash")).length} products</em></p>
                     </div>
                 </div>
                 <StyleRoot>
