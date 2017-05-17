@@ -5,9 +5,11 @@
 [Heroku Link](https://walmart-react.herokuapp.com/)
 [Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
 
+***
 
 ![splash-img](./readme-imgs/walmart-stash-splash.jpg)
 
+***
 
 ## :running: How To Run :running:
 
@@ -25,6 +27,8 @@
         ```
 5. Run `yarn start` and application will be running in `localhost: 3000`
 
+***
+
 ## :book: General Info :book:
 
 An application that utilizes the Walmart Search API to pull in the store's product database.
@@ -40,6 +44,8 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 - [UPCitemDB](http://www.upcitemdb.com/)
 - [cors-now](https://cors.now.sh/)
 
+***
+
 ## :key: The App :key:
 
 #### Features
@@ -50,12 +56,16 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 - Edit brand names
     - A brand name will be suggested
 
+***
+
 ## :pencil: Planning :pencil:
 
 [Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)
 [Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
 
 At first, I had thought I needed a backend since the `Walmart Search API` was giving CORs errors when making requests on the client. This was immediately fixed when I stumbled upon the [cors-now](https://cors.now.sh/) tool that fixed my issues.
+
+***
 
 ## :checkered_flag: Functionality :checkered_flag:
 
@@ -64,6 +74,7 @@ At first, I had thought I needed a backend since the `Walmart Search API` was gi
 
 ![basic-function](./readme-imgs/walmart-stash-edit-delete.gif)
 
+***
 
 ## :pensive: Short Comings :pensive:
 
@@ -72,6 +83,8 @@ Input seems to be one character behind, and some finagling is needed to get corr
 
 ##### Could Have Better State Management
 Not an issue when interacting with `UserResults` component, but when adding a new item with the `SearchBar` component, the `results` are not refreshed. Could be fixed by having the parent component handle the state and pass down the results to each component.
+
+***
 
 ## :white_check_mark: To-Do's :white_check_mark:
 
