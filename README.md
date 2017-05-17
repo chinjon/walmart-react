@@ -1,19 +1,23 @@
-# :department_store: Walmart React App :department_store:  
+# :department_store: Walmart React App :department_store:
 
 
-### :zap: Links :zap:  
-[Heroku Link](https://walmart-react.herokuapp.com/)  
-[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
+### :zap: Links :zap:
+[Heroku Link](https://walmart-react.herokuapp.com/)
+[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
 
-## :running: How To Run :running:  
 
-1. `clone` repo to desktop  
-2. Open terminal and `cd` into `walmart-react`  
-3. In terminal, run `yarn install` or `npm install` to download dependencies  
+![splash-img](./readme-imgs/walmart-stash-land.gif)
+
+
+## :running: How To Run :running:
+
+1. `clone` repo to desktop
+2. Open terminal and `cd` into `walmart-react`
+3. In terminal, run `yarn install` or `npm install` to download dependencies
 4. **IMPORTANT** Make sure an **API KEY** is obtained!
-    - Must have a `hide.js` file placed in the root of the `src` folder.  
-    - Key can be obtained from Walmart (for FREE) or contact me.  
-    - Inside `hide.js` have key stored in `module.exports` object like so:  
+    - Must have a `hide.js` file placed in the root of the `src` folder.
+    - Key can be obtained from Walmart (for FREE) or contact me.
+    - Inside `hide.js` have key stored in `module.exports` object like so:
         ```
         module.exports = {
             KEY: 'API_KEY_HERE'
@@ -21,56 +25,56 @@
         ```
 5. Run `yarn start` and application will be running in `localhost: 3000`
 
-## :book: General Info :book:  
+## :book: General Info :book:
 
-An application that utilizes the Walmart Search API to pull in the store's product database.  
+An application that utilizes the Walmart Search API to pull in the store's product database.
 
-#### :floppy_disk: Technologies :floppy_disk:  
+#### :floppy_disk: Technologies :floppy_disk:
 
-- [Bulma CSS](http://bulma.io/)  
+- [Bulma CSS](http://bulma.io/)
 - [***`create-react-app` CLI***](https://github.com/facebookincubator/create-react-app)
-- React JS  
-    - Radium  
-    - React Animations  
-- [Walmart Search API](https://developer.walmartlabs.com/docs/read/Search_API)  
-- [UPCitemDB](http://www.upcitemdb.com/)  
-- [cors-now](https://cors.now.sh/)  
+- React JS
+    - Radium
+    - React Animations
+- [Walmart Search API](https://developer.walmartlabs.com/docs/read/Search_API)
+- [UPCitemDB](http://www.upcitemdb.com/)
+- [cors-now](https://cors.now.sh/)
 
-## :key: The App :key:  
+## :key: The App :key:
 
-#### Features  
-- Makes search requests to the Walmart Search API  
-- Store items in local storage  
-- Sort items alphabetically  
-- Delete items from list  
-- Edit brand names  
-    - A brand name will be suggested  
+#### Features
+- Makes search requests to the Walmart Search API
+- Store items in local storage
+- Sort items alphabetically
+- Delete items from list
+- Edit brand names
+    - A brand name will be suggested
 
-## :pencil: Planning :pencil:  
+## :pencil: Planning :pencil:
 
-[Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)  
-[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
+[Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)
+[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
 
 At first, I had thought I needed a backend since the `Walmart Search API` was giving CORs errors when making requests on the client. This was immediately fixed when I stumbled upon the [cors-now](https://cors.now.sh/) tool that fixed my issues.
 
-## :checkered_flag: Functionality :checkered_flag:  
+## :checkered_flag: Functionality :checkered_flag:
 
-## :pensive: Short Comings :pensive:  
+## :pensive: Short Comings :pensive:
 
-##### Wonky Search  
-Input seems to be one character behind, and some finagling is needed to get correct search term entered and populate results.  
+##### Wonky Search
+Input seems to be one character behind, and some finagling is needed to get correct search term entered and populate results.
 
-##### Could Have Better State Management  
-Not an issue when interacting with `UserResults` component, but when adding a new item with the `SearchBar` component, the `results` are not refreshed. Could be fixed by having the parent component handle the state and pass down the results to each component.  
+##### Could Have Better State Management
+Not an issue when interacting with `UserResults` component, but when adding a new item with the `SearchBar` component, the `results` are not refreshed. Could be fixed by having the parent component handle the state and pass down the results to each component.
 
-## :white_check_mark: To-Do's :white_check_mark:  
+## :white_check_mark: To-Do's :white_check_mark:
 
-##### **REFACTORING**  
-As always, code could be much shorter. There are a few sections in the application where functional programming and higher-order-functions can cut down on the amount of code.  
+##### **REFACTORING**
+As always, code could be much shorter. There are a few sections in the application where functional programming and higher-order-functions can cut down on the amount of code.
 
-##### **Notifications**  
-Add a proper notification system to notify user when actions were performed successfully or errors were made and how to fix them.  
+##### **Notifications**
+Add a proper notification system to notify user when actions were performed successfully or errors were made and how to fix them.
 
-##### **REDUX**  
-Been meaning to learn it, but this will greatly help state management.  
+##### **REDUX**
+Been meaning to learn it, but this will greatly help state management.
 
