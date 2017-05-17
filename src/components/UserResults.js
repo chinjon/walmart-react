@@ -199,15 +199,17 @@ class StoredResults extends Component {
     }
 
     upcApiCall(itemUPC) {
+        console.log("UPC is firing")
         const url = `https://cors.now.sh/https://api.upcitemdb.com/prod/trial/lookup?upc=${itemUPC}`
+        console.log(url)
         fetch(url,{ 
-                method: "GET", 
-                mode: "no-cors", 
+                method: "GET",
                 headers: {
                     "Accept": "application/json"
                 }
         })
         .then(response => response.json())
+        // .then(result => console.log(result.items[0].brand))
         .then(result => this.setState({brandName: result.items[0].brand}))
         .catch(err =>console.log(err))
     }
@@ -223,6 +225,7 @@ class StoredResults extends Component {
     onBrandNameCellClick=(val) => {
         console.log(val)
         if(this.state.editing === false) {
+            this.upcApiCall(val)
             this.setState({
                 editing: true,
                 editTDUpc: val
