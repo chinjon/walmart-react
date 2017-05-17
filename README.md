@@ -28,24 +28,49 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 #### :floppy_disk: Technologies :floppy_disk:  
 
 - [Bulma CSS](http://bulma.io/)  
-- ***`create-react-app` CLI***
+- [***`create-react-app` CLI***](https://github.com/facebookincubator/create-react-app)
 - React JS  
     - Radium  
     - React Animations  
 - [Walmart Search API](https://developer.walmartlabs.com/docs/read/Search_API)  
+- [UPCitemDB](http://www.upcitemdb.com/)  
+- [cors-now](https://cors.now.sh/)  
 
 ## :key: The App :key:  
+
+#### Features  
+- Makes search requests to the Walmart Search API  
+- Store items in local storage  
+- Sort items alphabetically  
+- Delete items from list  
+- Edit brand names  
+    - A brand name will be suggested  
 
 ## :pencil: Planning :pencil:  
 
 [Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)  
 [Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
 
+At first, I had thought I needed a backend since the `Walmart Search API` was giving CORs errors when making requests on the client. This was immediately fixed when I stumbled upon the [cors-now](https://cors.now.sh/) tool that fixed my issues.
+
 ## :checkered_flag: Functionality :checkered_flag:  
 
 ## :pensive: Short Comings :pensive:  
 
+##### Wonky Search  
+Input seems to be one character behind, and some finagling is needed to get correct search term entered and populate results.  
+
+##### Could Have Better State Management  
+Not an issue when interacting with `UserResults` component, but when adding a new item with the `SearchBar` component, the `results` are not refreshed. Could be fixed by having the parent component handle the state and pass down the results to each component.  
+
 ## :white_check_mark: To-Do's :white_check_mark:  
 
 ##### **REFACTORING**  
-As always, code could be much shorter. There are a few sections in the application where functional programming and higher-order-functions can cut down on the amount of code.
+As always, code could be much shorter. There are a few sections in the application where functional programming and higher-order-functions can cut down on the amount of code.  
+
+##### **Notifications**  
+Add a proper notification system to notify user when actions were performed successfully or errors were made and how to fix them.  
+
+##### **REDUX**  
+Been meaning to learn it, but this will greatly help state management.  
+
