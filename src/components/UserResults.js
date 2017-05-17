@@ -366,7 +366,12 @@ class StoredResults extends Component {
                         </div>
                     </div>
                     <div className="column is-3 is-offset-2">
-                        <p><em>{this.state.data.length} of {JSON.parse(localStorage.getItem("walmartStash")).length} products</em></p>
+                        <p><em>
+                        {data ? this.state.data.length + " " : "0 "} of 
+                        {data ?
+                        " " + JSON.parse(localStorage.getItem("walmartStash")).length+" " : " 0 "} 
+                        products
+                        </em></p>
                     </div>
                 </div>
                 <StyleRoot>
