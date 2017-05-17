@@ -244,7 +244,7 @@ class StoredResults extends Component {
         }
         
         const updatingItemIndex = data.findIndex(matchingUpc)
-        data[updatingItemIndex].brandName = this.state.brandName
+        data[updatingItemIndex].brandName = brandName
         this.updateLocalStorage(data)
         this.setState({
             data: JSON.parse(localStorage.getItem("walmartStash")),
