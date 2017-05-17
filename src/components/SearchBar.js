@@ -3,7 +3,7 @@ import Radium from 'radium';
 import {KEY} from './../hide.js';
 
 import SearchInput from './grandchildren/SearchInput';
-// import SelectInput from './grandchildren/SelectInput';
+import SelectInput from './grandchildren/SelectInput';
 
 const style = {
     searchBar:{
@@ -20,6 +20,8 @@ class SearchBar extends Component {
         this.state = {
             advancedSearch: true,
             query: "",
+            start: "1",
+            numItems: "10",
             results: "",
             sortBy: "relevance",
             advancedSearchOptions: false,
@@ -33,8 +35,6 @@ class SearchBar extends Component {
         this.grabSelectItemFromArr = this.grabSelectItemFromResults.bind(this);
         this.setToLocalStorage = this.setToLocalStorage.bind(this);
         this.checkIfAddedAlready = this.checkIfAddedAlready.bind(this);
-        // this.renderAdvancedSearch = this.renderAdvancedSearch.bind(this);
-        // this.onAdvancedClick = this.onAdvancedClick.bind(this);
     }
 
 
@@ -73,7 +73,9 @@ class SearchBar extends Component {
     }
 
     fetchWalmartSearch(query) {
-        fetch(`https://cors.now.sh/https://api.walmartlabs.com/v1/search?apiKey=${KEY}&query=${query}&format=json`)
+        const {start,numItems,sortBy} = this.state;
+        const endURL = `&sort=${sortBy}&numItems=${numItems}&start=${start}`;
+        fetch(`https://cors.now.sh/https://api.walmartlabs.com/v1/search?apiKey=${KEY}&query=${query}${endURL}&format=json`)
             .then(response => response.json())
             .then(result => this.setSearchResults(result.items));
     }
@@ -126,43 +128,6 @@ class SearchBar extends Component {
         return foundItem;
     }
 
-    // renderAdvancedSearch() {
-    //     return (
-    //     <span className="field-body">
-    //         <div className="field">
-    //             <p className="control is-expanded">
-    //                 <SearchInput 
-    //                     placeholder="Results"
-    //                     type="number"
-    //                     min="0"
-    //                     max="30"
-    //                     name="results"
-    //                 />
-    //             </p>
-    //         </div>
-    //         <div className="field">
-    //                 <p className="control is-expanded">
-    //                     <SearchInput 
-    //                     placeholder="Start At"
-    //                     type="number"
-    //                     min="0"
-    //                     max="30"
-    //                     name="startAt"
-    //                 />
-    //                 </p>
-    //         </div>
-    //         <div className="field">
-    //                 <p className="control is-expanded">
-    //                     <SelectInput 
-    //                         value={this.state.sortBy}
-    //                         onChange={this.onAdvancedClick}
-    //                     />
-    //                 </p>
-    //         </div>
-    //     </span>
-    //     )
-    // }
-
     handleSubmit(e) {
         e.preventDefault();
         console.log("value is ", this.state.query)
@@ -172,7 +137,7 @@ class SearchBar extends Component {
         return (
             <datalist id="resultItems" value={this.state.selectDropdown}>
                 <span className="control">
-                    <select onChange={this.onInputChange.bind(this)} name="selectDropdown" value={this.state.selectDropdown}>
+                    <select onChange={this.onInputChange} name="selectDropdown" value={this.state.selectDropdown}>
                         {
                             data.map((e,i)=>{
                                 return <option data-itemId={e.itemId} key={i} value={e.name}/>
@@ -205,6 +170,42 @@ class SearchBar extends Component {
                             }
                             </p>
                         </div>
+
+                        <div className="field">
+                            <p className="control is-expanded">
+                                <SearchInput 
+                                    placeholder="Results"
+                                    onChange={this.onInputChange}
+                                    value={this.state.numItems}
+                                    type="number"
+                                    min="0"
+                                    max="25"
+                                    name="numItems"
+                                />
+                            </p>
+                        </div>
+                        <div className="field">
+                                <p className="control is-expanded">
+                                    <SearchInput 
+                                    placeholder="Start At"
+                                    onChange={this.onInputChange}
+                                    value={this.state.start}
+                                    type="number"
+                                    min="0"
+                                    max="30"
+                                    name="start"
+                                />
+                                </p>
+                        </div>
+                        <div className="field">
+                                <p className="control is-expanded">
+                                    <SelectInput 
+                                        value={this.state.sortBy}
+                                        onChange={this.onAdvancedClick}
+                                    />
+                                </p>
+                        </div>
+
                             <button 
                                 className="control button is-primary" 
                                 type="submit" 
