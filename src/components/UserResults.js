@@ -172,9 +172,11 @@ class StoredResults extends Component {
         }
     }
 
-    renderRegularTableData(){
+    renderRegularTableData(data){
         return (
-            <p></p>
+            <p>
+                {data.brandName}
+            </p>
         )
     }
 
@@ -243,10 +245,14 @@ class StoredResults extends Component {
         
         console.log("save button firing")
         const updatingItemIndex = data.findIndex(matchingUpc)
+        // console.log(data[updatingItemIndex][brandName])
+        data[updatingItemIndex].brandName = this.state.brandName
         console.log(data[updatingItemIndex][brandName])
+        this.updateLocalStorage(data)
         // console.log("brandName val: ", this.state.brandName)
         // console.log("editTDUpc val:", this.state.editTDUpc)
         this.setState({
+            data: JSON.parse(localStorage.getItem("walmartStash")),
             editing: false,
             editTDUpc: null,
             brandName: ""
@@ -307,7 +313,7 @@ class StoredResults extends Component {
                                      this.renderEditTableData()
                                        : 
                                       
-                                        this.renderRegularTableData()
+                                        this.renderRegularTableData(e)
                                    }
                                    
                                 </td>
