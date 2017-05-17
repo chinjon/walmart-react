@@ -84,6 +84,9 @@ Input seems to be one character behind, and some finagling is needed to get corr
 ##### Could Have Better State Management
 Not an issue when interacting with `UserResults` component, but when adding a new item with the `SearchBar` component, the `results` are not refreshed. Could be fixed by having the parent component handle the state and pass down the results to each component.
 
+##### Huge Components
+The application stems from two components, and there is **A LOT** of code between just the two, so breaking them up into smaller ones and refactoring would be in the works.
+
 ***
 
 ## :white_check_mark: To-Do's :white_check_mark:
@@ -93,6 +96,8 @@ As always, code could be much shorter. There are a few sections in the applicati
 
 ##### **Notifications**
 Add a proper notification system to notify user when actions were performed successfully or errors were made and how to fix them.
+
+Ideally I'd like to use the [React Notification System](https://github.com/igorprado/react-notification-system) package to do this.
 
 ##### **REDUX**
 Been meaning to learn it, but this will greatly help state management.
