@@ -199,9 +199,7 @@ class StoredResults extends Component {
     }
 
     upcApiCall(itemUPC) {
-        console.log("UPC is firing")
         const url = `https://cors.now.sh/https://api.upcitemdb.com/prod/trial/lookup?upc=${itemUPC}`
-        console.log(url)
         fetch(url,{ 
                 method: "GET",
                 headers: {
@@ -223,7 +221,6 @@ class StoredResults extends Component {
     }
 
     onBrandNameCellClick=(val) => {
-        console.log(val)
         if(this.state.editing === false) {
             this.upcApiCall(val)
             this.setState({
@@ -246,14 +243,9 @@ class StoredResults extends Component {
             return item.upc === editTDUpc
         }
         
-        console.log("save button firing")
         const updatingItemIndex = data.findIndex(matchingUpc)
-        // console.log(data[updatingItemIndex][brandName])
         data[updatingItemIndex].brandName = this.state.brandName
-        console.log(data[updatingItemIndex][brandName])
         this.updateLocalStorage(data)
-        // console.log("brandName val: ", this.state.brandName)
-        // console.log("editTDUpc val:", this.state.editTDUpc)
         this.setState({
             data: JSON.parse(localStorage.getItem("walmartStash")),
             editing: false,

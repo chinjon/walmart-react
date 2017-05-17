@@ -42,7 +42,6 @@ class SearchBar extends Component {
         const target = event.target;
         const name = target.name;
         this.setState({[name]: target.value});
-        console.log(`state set for ${name}`, this.state[name]);
 
         if(target.value) {
             this.fetchWalmartSearch(this.state[name])
@@ -83,9 +82,7 @@ class SearchBar extends Component {
     handleSendToLocalStorage = event => {
         event.preventDefault();
         const {results, query} = this.state;
-        console.log("handleSendToLocalStorage() fired");
         let storeItem = this.grabSelectItemFromResults(results, query);
-        console.log(storeItem);
         this.setToLocalStorage(storeItem);
     }
 
@@ -121,7 +118,6 @@ class SearchBar extends Component {
     }
 
     grabSelectItemFromResults(data, userSelect) {
-        console.log(userSelect);
         let foundItem = data.filter((e)=>{
             return e.name === userSelect;
         })
@@ -130,7 +126,6 @@ class SearchBar extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
-        console.log("value is ", this.state.query)
     }
 
     renderDropDown(data) {
