@@ -6,7 +6,7 @@
 [Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
 
 
-![splash-img](./readme-imgs/walmart-stash-land.gif)
+![splash-img](./readme-imgs/walmart-stash-splash.jpg)
 
 
 ## :running: How To Run :running:
@@ -58,6 +58,12 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 At first, I had thought I needed a backend since the `Walmart Search API` was giving CORs errors when making requests on the client. This was immediately fixed when I stumbled upon the [cors-now](https://cors.now.sh/) tool that fixed my issues.
 
 ## :checkered_flag: Functionality :checkered_flag:
+
+![basic-function](./readme-imgs/walmart-search-land.gif)
+
+
+![basic-function](./readme-imgs/walmart-stash-edit-delete.gif)
+
 
 ## :pensive: Short Comings :pensive:
 
