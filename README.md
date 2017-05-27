@@ -112,7 +112,7 @@ Been meaning to learn it, but this will greatly help state management.
 
 ## v2  [5/26/2017]  
 
-***didn't get position, will work on this to scrub out the kinks and bugs for portfolio***  
+***didn't get position :pensive:, will work on this to scrub out the kinks and bugs for portfolio***  
 
 ***tempted to add a database to this, most likely mongoDB***  
 
