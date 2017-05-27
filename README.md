@@ -2,12 +2,12 @@
 
 
 ### :zap: Links :zap:
-[Heroku Link](https://walmart-react.herokuapp.com/)
-[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
+[Heroku Link](https://walmart-react.herokuapp.com/)  
+[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
 
 ***
 
-![splash-img](./readme-imgs/walmart-stash-splash.jpg)
+![splash-img](./readme-imgs/walmart-stash-splash.jpg)  
 
 ***
 
@@ -32,6 +32,10 @@
 ## :book: General Info :book:
 
 An application that utilizes the Walmart Search API to pull in the store's product database.
+
+*This project was done for a coding test for a React JS position*  
+
+*Alotted time was a week*  
 
 #### :floppy_disk: Technologies :floppy_disk:
 
@@ -60,10 +64,12 @@ An application that utilizes the Walmart Search API to pull in the store's produ
 
 ## :pencil: Planning :pencil:
 
-[Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)
-[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)
+[Wireframe](https://app.moqups.com/indieslap/ilZbWZIs43/view/page/a0d4dc3eb)  
+[Trello Board](https://trello.com/b/Nzh9mvgy/walmart-react)  
 
-At first, I had thought I needed a backend since the `Walmart Search API` was giving CORs errors when making requests on the client. This was immediately fixed when I stumbled upon the [cors-now](https://cors.now.sh/) tool that fixed my issues.
+At first, I had thought I needed a backend since the `Walmart Search API` was giving CORs errors when making requests on the client. This was immediately fixed when I stumbled upon the [cors-now](https://cors.now.sh/) tool that fixed my issues.  
+
+Was tempted to use existing React table components that are out there, but opted to create one on my own with my own set of functions.  
 
 ***
 
@@ -102,3 +108,14 @@ Ideally I'd like to use the [React Notification System](https://github.com/igorp
 ##### **REDUX**
 Been meaning to learn it, but this will greatly help state management.
 
+*** 
+
+## v2  [5/26/2017]  
+
+***didn't get position, will work on this to scrub out the kinks and bugs for portfolio***  
+
+***tempted to add a database to this, most likely mongoDB***  
+
+#### Refactoring The Table  
+
+Planning to use `react-table` to create the table. 
